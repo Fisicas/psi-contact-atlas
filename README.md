@@ -8,16 +8,16 @@ Open the interactive library: **[https://fisicas.github.io/psi-contact-atlas/](h
 
 <table>
 <tr>
-<td align="center"><img src="media/spin_1JB0_prot1_P_A.gif" width="360" alt="1JB0 P_A chlorophyll with its Thr/Tyr/Ser and water network, spinning"><br><sub><b>1JB0 · P<sub>A</sub> network</b> — <i>S. elongatus</i>, X-ray 2.5 Å</sub></td>
-<td align="center"><img src="media/spin_7COY_prot1_special_pair.gif" width="360" alt="7COY chlorophyll d special pair, spinning"><br><sub><b>7COY · special pair</b> — <i>A. marina</i> Chl <i>d</i> / P740, cryo-EM 2.5 Å</sub></td>
+<td align="center"><img src="media/spin_1JB0_prot1_P_A.gif" width="430" alt="1JB0 P_A chlorophyll with its Thr/Tyr/Ser and water network, spinning"><br><sub><b>1JB0 · P<sub>A</sub> network</b> — <i>S. elongatus</i>, X-ray 2.5 Å</sub></td>
+<td align="center"><img src="media/spin_7COY_prot1_special_pair.gif" width="430" alt="7COY chlorophyll d special pair, spinning"><br><sub><b>7COY · special pair</b> — <i>A. marina</i> Chl <i>d</i> / P740, cryo-EM 2.5 Å</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="media/spin_9YL7_prot1_A1A.gif" width="400" alt="9YL7 A1A plastoquinone-9 pocket, spinning"><br><sub><b>9YL7 · A<sub>1A</sub></b> — PQ-9 (30 of 55 heavy atoms deposited), cryo-EM 1.68 Å</sub></td>
-<td align="center"><img src="media/spin_9AU4_prot1_A1B.gif" width="400" alt="9AU4 A1B DMPBQ pocket, spinning"><br><sub><b>9AU4 · A<sub>1B</sub></b> — DMPBQ in the MenB variant, cryo-EM 2.03 Å</sub></td>
+<td align="center"><img src="media/spin_9YL7_prot1_A1A.gif" width="430" alt="9YL7 A1A plastoquinone-9 pocket, spinning"><br><sub><b>9YL7 · A<sub>1A</sub></b> — PQ-9 (30 of 55 heavy atoms deposited), cryo-EM 1.68 Å</sub></td>
+<td align="center"><img src="media/spin_9AU4_prot1_A1B.gif" width="430" alt="9AU4 A1B DMPBQ pocket, spinning"><br><sub><b>9AU4 · A<sub>1B</sub></b> — DMPBQ in the MenB variant, cryo-EM 2.03 Å</sub></td>
 </tr>
 </table>
 
-<sub>Each loop is drawn by the library’s own viewer from deposited heavy atoms: grey C, blue N, red O, green Mg, yellow S; thicker sticks are the cofactor. Dashed lines are measured separations in Å (dark: polar candidate ≤ 3.5 Å; teal: water-involved; green: Mg–ligand; grey dotted: longer context). The whole scene stays in frame through the full turn.</sub>
+<sub>Each loop is drawn by the library’s own viewer from deposited heavy atoms: grey C, blue N, red O, green Mg, yellow S; thicker sticks are the cofactor. Dashed lines are measured separations in Å (dark: polar candidate ≤ 3.5 Å; teal: water-involved; green: Mg–ligand; grey dotted: longer context). The whole scene stays in frame through a slow full turn; labels ride with their atoms and fade where they overlap. The interactive site instead re-places labels to avoid overlaps.</sub>
 
 ## Why these four environments
 

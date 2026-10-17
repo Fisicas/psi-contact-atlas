@@ -1,0 +1,4 @@
+# PyMOL scripts are not Promela; keep generated data out of the language statistics
+*.pml linguist-detectable=false
+downloads/** linguist-generated
+data/** linguist-generated
