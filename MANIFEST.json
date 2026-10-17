@@ -1,7 +1,7 @@
 {
  ".gitattributes": {
-  "bytes": 175,
-  "sha256": "f62acf4edcba7470f2054282d62a33e27a3cbf4428e07454c23079d5755c528c"
+  "bytes": 179,
+  "sha256": "1098ee961cd0bcc0e7e810844b762fc59941207984b6a7762034c9ea9197b3e5"
  },
  ".gitignore": {
   "bytes": 26,
@@ -16,8 +16,8 @@
   "sha256": "7e3f7fa065c6e872219b516a6ccd539352ebd5cc1e77972398e687ddba061fd9"
  },
  "css/style.css": {
-  "bytes": 28081,
-  "sha256": "6af1ebdc53ee6ec5d33521a12b9d8283167ff6e434dd4b14786318a9b431acbd"
+  "bytes": 29450,
+  "sha256": "d393973b90cadb2fdbc105334f5feccd192f8a61b6902c1d21215f93d74a0442"
  },
  "data/atlas.js": {
   "bytes": 176472,
@@ -1832,16 +1832,20 @@
   "sha256": "9576f8ffba1ea3e86044266aca7121fbf972197c8e03e5202de18bb566791947"
  },
  "index.html": {
-  "bytes": 2117,
-  "sha256": "2d71ced345ec2e003eb4f6f6122a93d9e6a00d11a562d31ed9b6432585b15eb8"
+  "bytes": 2164,
+  "sha256": "ca0441a40195b465c654031dfab1ef0566b9e373d30320239235f0c4a63cdeec"
  },
  "js/app.js": {
-  "bytes": 52142,
-  "sha256": "7c32987c18c6359aedd229b0590a8e0d2bdc82a575a8ea636b9e0ffee70f4b4b"
+  "bytes": 56427,
+  "sha256": "e719b593ca9ba60a87560e49a78ea7dd09ab104d4beb8e575e40dbd48b73ee90"
+ },
+ "js/gif.js": {
+  "bytes": 5102,
+  "sha256": "bfd8d7d86a704522017e8492b7684dfb8d8e91c86ec1a53a8be783884ac9122d"
  },
  "js/viewer.js": {
-  "bytes": 31456,
-  "sha256": "a9583ce7bd1660d88a1db3fcd82663dfc26a65d13329b719c6cb80d530565fbd"
+  "bytes": 35819,
+  "sha256": "5b8b20c409f476458263a17f8cdf7f3d03f97fdb425186324650668a1c925888"
  },
  "LICENSE": {
   "bytes": 1100,

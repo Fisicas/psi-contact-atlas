@@ -130,6 +130,7 @@
     }
     frame(now) {
       this.running = false;
+      if (this.exporting) return;   // a GIF render owns the camera and label memory
       if (!this.canvas.isConnected) return this.destroy();
       this.advance(now);
       this.draw(this.ctx, this.cssW, this.cssH, this.dpr, now);
@@ -293,7 +294,9 @@
           for (const off of [0, th * .95, -th * .95, th * 1.9, -th * 1.9]) for (const t of [.5, .4, .6, .3, .7, .22, .78]) cands.push([t, off]);
           const tryOrder = prev !== undefined ? [prev, ...cands.keys()] : [...cands.keys()];
           let rect = null, chosen = -1;
-          for (const q of tryOrder) {
+          // stable mode (README loops): the number rides on its own guide midpoint, never re-placed
+          if (this.opts.stableLabels) rect = { x: g[0] + dx * .5 - tw / 2, y: g[1] + dy * .5 - th / 2, w: tw, h: th, t: .5, off: 0 };
+          else for (const q of tryOrder) {
             const [t, off] = cands[q];
             const r = { x: g[0] + dx * t + nx * off - tw / 2, y: g[1] + dy * t + ny * off - th / 2, w: tw, h: th, t, off };
             if (free(r)) { rect = r; chosen = q; break; }
@@ -302,7 +305,10 @@
           if (!rect && emph) rect = { x: g[0] + dx * .5 - tw / 2, y: g[1] + dy * .5 - th / 2, w: tw, h: th, t: .5, off: 0 };
           if (!rect) { hidden++; c._rect = null; this.labelMemo.delete(memoKey); continue; }
           if (chosen >= 0) this.labelMemo.set(memoKey, chosen);
+          // stable mode: fade in proportion to overlap with labels already drawn (continuous, so no flicker)
+          const fade = this.opts.stableLabels ? Math.max(.12, 1 - 1.4 * overlapFrac(rect, placed)) : 1;
           placed.push(rect);
+          ctx.globalAlpha = fade;
           if (Math.abs(rect.off) > 0) { // short leader back to the guide
             ctx.strokeStyle = st.color; ctx.globalAlpha = .6; ctx.lineWidth = 1 * (k || 1); ctx.setLineDash([]);
             const gx = g[0] + dx * rect.t, gy = g[1] + dy * rect.t;
@@ -314,6 +320,7 @@
           ctx.fillStyle = emph ? '#92400e' : st.color === '#8a929c' ? '#5b636c' : st.color;
           ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
           ctx.fillText(text, rect.x + rect.w / 2, rect.y + rect.h / 2 + .5);
+          ctx.globalAlpha = 1;
           c._rect = rect;
         }
       }
@@ -340,6 +347,13 @@
         const memoKey = 'l' + li, prev = this.labelMemo.get(memoKey);
         let best = null, bestScore = Infinity, bestIdx = -1;
         const tryIdx = prev !== undefined ? [prev, ...cands.keys()] : [...cands.keys()];
+        // stable mode: keep the absolute screen direction chosen on the first frame
+        const fixed = this.opts.stableLabels ? this.labelMemo.get('fix' + li) : null;
+        if (fixed) {
+          const ex = Math.cos(fixed.a), ey = Math.sin(fixed.a);
+          best = { x: ax + ex * gap * fixed.rr + (ex < -.3 ? -tw : ex > .3 ? 0 : -tw / 2), y: ay + ey * gap * fixed.rr + (ey < -.3 ? -th : ey > .3 ? 0 : -th / 2), w: tw, h: th };
+          tryIdx.length = 0;
+        }
         for (const q of tryIdx) {
           const r = cands[q]; if (!free(r)) continue;
           const score = hitsAtoms(r) * 3 + q * .15 - (q === prev ? 2 : 0);
@@ -347,7 +361,12 @@
           if (score <= 0) break;
         }
         if (!best) return; // no space: the table remains the complete record
-        this.labelMemo.set(memoKey, bestIdx);
+        if (this.opts.stableLabels && !fixed && bestIdx >= 0) {
+          const da = [0, .5, -.5, 1, -1, 1.6, -1.6, 2.4, -2.4, Math.PI][Math.floor(bestIdx / 3)];
+          this.labelMemo.set('fix' + li, { a: base + da, rr: [1, 1.8, 2.8][bestIdx % 3] });
+        }
+        if (bestIdx >= 0) this.labelMemo.set(memoKey, bestIdx);
+        const lfade = this.opts.stableLabels ? Math.max(.15, 1 - 1.4 * overlapFrac(best, placed)) : 1;
         placed.push(best);
         const tx = best.x, ty = best.y + best.h / 2;
         // leader if label sits away from its anchor
@@ -356,8 +375,8 @@
           ctx.strokeStyle = 'rgba(70,80,90,.55)'; ctx.lineWidth = 1 * (k || 1); ctx.setLineDash([]);
           ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(lx, ly); ctx.stroke();
         }
-        ctx.textBaseline = 'middle'; ctx.textAlign = 'left'; ctx.lineJoin = 'round';
-        const halo = (txt, x, y) => { ctx.strokeStyle = 'rgba(255,255,255,.95)'; ctx.lineWidth = 3.5 * (k || 1); ctx.strokeText(txt, x, y); ctx.fillText(txt, x, y); };
+        ctx.textBaseline = 'middle'; ctx.textAlign = 'left'; ctx.lineJoin = 'round'; ctx.globalAlpha = lfade;
+        const halo =(txt, x, y) => { ctx.strokeStyle = 'rgba(255,255,255,.95)'; ctx.lineWidth = 3.5 * (k || 1); ctx.strokeText(txt, x, y); ctx.fillText(txt, x, y); };
         if (role) {
           ctx.font = `700 ${roleFont}px ${FONT}`; ctx.fillStyle = '#0f3d2e'; halo(role.base, tx, ty);
           ctx.font = `700 ${roleFont * .7}px ${FONT}`; halo(role.sub, tx + role.wb + 1, ty + roleFont * .28);
@@ -365,6 +384,7 @@
           ctx.font = `600 ${rFont}px ${FONT}`; ctx.fillStyle = lb.kind === 'water' ? '#0b6680' : '#26303b'; halo(lb.text, tx, ty);
           if (lb.chain) { ctx.font = `400 ${rFont * .8}px ${FONT}`; ctx.fillStyle = '#6b7580'; halo(' ' + lb.chain, tx + lb._t1, ty + 1); }
         }
+        ctx.globalAlpha = 1;
       });
       this.hiddenValues = hidden;
       if (hidden) {
@@ -476,6 +496,44 @@
     }
 
     /* ---------- export ---------- */
+    /* One full turn about the vertical axis, starting from the current view, as an animated GIF.
+       Labels use the stable mode (they ride with their atoms and fade where they overlap). */
+    async renderSpinGIF({ width, frames, delayCs, caption, onProgress, isCancelled }) {
+      const k = width / this.cssW, W = Math.round(this.cssW * k), Hm = Math.round(this.cssH * k), capH = Math.round(34 * k), H = Hm + capH;
+      const saved = { motion: this.opts.motion, stable: this.opts.stableLabels, memo: this.labelMemo, angle: this.angle, theta: this.theta, hl: this.highlight, hover: this.hoverAtom };
+      this.exporting = true; this.opts.stableLabels = true; this.highlight = -1; this.hoverAtom = -1;
+      const start = this.theta || 0, sign = this.scene.camera.spin_sign || 1;
+      const off = document.createElement('canvas'); off.width = W; off.height = H;
+      const ctx = off.getContext('2d', { willReadFrequently: true });
+      const render = f => {
+        this.theta = this.angle = start + sign * 2 * Math.PI * f / frames;
+        this.draw(ctx, this.cssW, this.cssH, k, 0, 1);
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.fillStyle = '#ffffff'; ctx.fillRect(0, Hm, W, capH);
+        ctx.fillStyle = '#3d4650'; ctx.font = `${12 * k}px ${FONT}`; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+        ctx.fillText(caption, 12 * k, Hm + capH / 2);
+        return ctx.getImageData(0, 0, W, H).data;
+      };
+      try {
+        this.labelMemo = new Map();
+        const samples = [];
+        for (let i = 0; i < 6; i++) samples.push(render(Math.floor(i * frames / 6)));
+        const gif = new window.PSIGif.GifWriter(W, H, window.PSIGif.buildPalette(samples));
+        this.labelMemo = new Map();             // label directions are fixed from frame 0
+        for (let f = 0; f < frames; f++) {
+          if (isCancelled && isCancelled()) return null;
+          gif.addFrame(render(f), delayCs);
+          if (onProgress) onProgress((f + 1) / frames);
+          await new Promise(r => setTimeout(r, 0));
+        }
+        return gif.finish();
+      } finally {
+        Object.assign(this.opts, { motion: saved.motion, stableLabels: saved.stable });
+        this.labelMemo = saved.memo; this.angle = saved.angle; this.theta = saved.theta;
+        this.highlight = saved.hl; this.hoverAtom = saved.hover; this.exporting = false; this.lastNow = 0; this.kick();
+      }
+    }
+
     exportPNG(widthPx, filename, caption) {
       const aspect = this.cssH / this.cssW, W = widthPx, H = Math.round(widthPx * aspect), k = W / this.cssW;
       const off = document.createElement('canvas'); off.width = W; off.height = H + Math.round(44 * k);
@@ -491,6 +549,16 @@
       off.toBlob(b => { const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = filename; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); }, 'image/png');
       this.kick();
     }
+  }
+
+  /* fraction of rect r covered by the most-overlapping rect in list */
+  function overlapFrac(r, list) {
+    let m = 0;
+    for (const p of list) {
+      const ox = Math.min(r.x + r.w, p.x + p.w) - Math.max(r.x, p.x), oy = Math.min(r.y + r.h, p.y + p.h) - Math.max(r.y, p.y);
+      if (ox > 0 && oy > 0) m = Math.max(m, (ox * oy) / (r.w * r.h));
+    }
+    return m;
   }
 
   function roundRect(ctx, x, y, w, h, r) {

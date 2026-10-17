@@ -335,3 +335,18 @@ table.kvt th { text-transform: none; letter-spacing: 0; font-size: .86rem; white
 
 #structures { scroll-margin-top: 64px; }
 [hidden] { display: none !important; }
+
+/* ---------- animated GIF panel ---------- */
+.gif-panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; margin: 0 0 8px; display: grid; gap: 8px; box-shadow: var(--shadow); }
+.gp-title { margin: 0; font-size: .82rem; color: var(--ink-2); }
+.gp-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.gp-label { font-size: .74rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); width: 52px; font-weight: 600; }
+.gp-hint { font-size: .8rem; color: var(--muted); }
+.gif-panel button { border: 1px solid var(--line); background: var(--surface); border-radius: 7px; padding: 5px 11px; font-size: .84rem; cursor: pointer; color: var(--ink-2); }
+.gif-panel .seg button { border-radius: 0; margin-left: -1px; }
+.gif-panel .seg button:first-child { border-radius: 7px 0 0 7px; margin-left: 0; } .gif-panel .seg button:last-child { border-radius: 0 7px 7px 0; }
+.gif-panel button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.gif-panel .go-btn { background: var(--accent); border-color: var(--accent); color: var(--surface); font-weight: 600; }
+.gif-panel .go-btn:disabled { opacity: .6; cursor: progress; }
+.gif-panel progress { width: 160px; height: 8px; }
+button.link.inline { display: inline; font-size: inherit; }

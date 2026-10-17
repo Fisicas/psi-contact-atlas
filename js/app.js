@@ -272,7 +272,14 @@
             <span class="grow"></span>
             <button id="reset" title="Return to the accepted still orientation (R)">Reset</button>
             <button id="png" title="Download a 2560-px PNG of the current view">PNG</button>
+            <button id="gifbtn" aria-expanded="false" aria-controls="gif-panel" title="Make an animated GIF of one full turn from the current view">GIF</button>
             <button id="fs" title="Fullscreen">⤢</button>
+          </div>
+          <div class="gif-panel" id="gif-panel" hidden>
+            <p class="gp-title"><b>Animated GIF</b> · one full turn from the current view, made in your browser. Uses the current scale and label settings; labels ride with their atoms and fade where they overlap.</p>
+            <div class="gp-row"><span class="gp-label">Width</span><div class="seg" role="group" aria-label="GIF width"><button data-gw="480" aria-pressed="true">480 px</button><button data-gw="800">800 px</button><button data-gw="1200">1200 px</button></div><span class="gp-hint" id="gp-size">≈ 1–3 MB</span></div>
+            <div class="gp-row"><span class="gp-label">Turn</span><div class="seg" role="group" aria-label="Time for one full turn"><button data-gt="6">6 s</button><button data-gt="10" aria-pressed="true">10 s</button><button data-gt="15">15 s</button></div></div>
+            <div class="gp-row"><button id="gif-go" class="go-btn">Make GIF</button><button id="gif-cancel" hidden>Cancel</button><progress id="gif-prog" max="1" value="0" hidden></progress><span class="gp-hint" id="gif-status" role="status"></span></div>
           </div>
           <div class="stage" id="stage"><p class="loading">Loading scene…</p></div>
           <p class="scale-note" id="scale-note"></p>
@@ -354,6 +361,39 @@
     $('#reset').addEventListener('click', () => viewer.reset());
     $('#png').addEventListener('click', () => viewer.exportPNG(2560, `${sc.key}_contacts.png`,
       `${sc.pdb} · protomer ${sc.protomer} · ${PART[sc.part].label.replace(/_/g, '')} · heavy-atom separations in Å from deposited coordinates · PSI Contact Atlas`));
+    // animated GIF of one full turn
+    const gp = $('#gif-panel'), gifBtn = $('#gifbtn');
+    let gw = 480, gt = 10, gifBusy = false, gifCancel = false;
+    const SIZE_HINT = { 480: '≈ 1–4 MB', 800: '≈ 3–10 MB', 1200: '≈ 6–25 MB, slower to make' };
+    const openGif = open => { gp.hidden = !open; gifBtn.setAttribute('aria-expanded', String(open)); gifBtn.setAttribute('aria-pressed', String(open)); };
+    gifBtn.addEventListener('click', () => openGif(gp.hidden));
+    gp.querySelectorAll('[data-gw]').forEach(b => b.addEventListener('click', () => { gw = +b.dataset.gw; gp.querySelectorAll('[data-gw]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); $('#gp-size').textContent = SIZE_HINT[gw]; }));
+    gp.querySelectorAll('[data-gt]').forEach(b => b.addEventListener('click', () => { gt = +b.dataset.gt; gp.querySelectorAll('[data-gt]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); }));
+    $('#gp-size').textContent = SIZE_HINT[gw];
+    $('#downloads').addEventListener('click', e => {
+      const b = e.target.closest('[data-open]'); if (!b) return;
+      if (b.dataset.open === 'png') $('#png').click();
+      else { openGif(true); $('.stage-col').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    });
+    $('#gif-cancel').addEventListener('click', () => { gifCancel = true; });
+    $('#gif-go').addEventListener('click', async () => {
+      if (gifBusy) return;
+      gifBusy = true; gifCancel = false;
+      const prog = $('#gif-prog'), status = $('#gif-status');
+      $('#gif-go').disabled = true; $('#gif-cancel').hidden = false; prog.hidden = false; prog.value = 0; status.textContent = 'Rendering…';
+      const delayCs = 8, frames = Math.round(gt * 100 / delayCs);
+      const label = PART[sc.part].label.replace(/_/g, '');
+      try {
+        const blob = await viewer.renderSpinGIF({ width: gw, frames, delayCs,
+          caption: `${sc.pdb} · protomer ${sc.protomer} · ${label} · heavy-atom separations in Å · PSI Contact Atlas`,
+          onProgress: f => { prog.value = f; status.textContent = `${Math.round(f * 100)} %`; }, isCancelled: () => gifCancel });
+        if (!blob) { status.textContent = 'Cancelled.'; return; }
+        const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `${sc.key}_spin_${gw}px_${gt}s.gif`; a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+        status.textContent = `Saved ${a.download} (${(blob.size / 1e6).toFixed(1)} MB, ${frames} frames).`;
+      } catch (err) { status.textContent = 'Could not make the GIF: ' + err.message; console.error(err); }
+      finally { gifBusy = false; $('#gif-go').disabled = false; $('#gif-cancel').hidden = true; prog.hidden = true; }
+    });
     $('#fs').addEventListener('click', () => { const el = $('.stage-col'); document.fullscreenElement ? document.exitFullscreen() : el.requestFullscreen?.(); });
 
     // legend with class toggles
@@ -385,6 +425,7 @@
       <dt>Chains</dt><dd>${esc(chainTitle(p))} (author IDs, case-sensitive)</dd></dl>
       <table class="mini-table"><thead><tr><th>Role</th><th>Assignment</th><th>Deposited</th><th>Label chain</th></tr></thead><tbody>${['P_A', 'P_B', 'A1_A', 'A1_B'].map(r => { const x = p.cofactors[r]; return `<tr><td>${roleTag(r)}</td><td>${sci(cofactorName(x))}</td><td><code>${esc(x?.identity)}</code></td><td>${esc(x?.label_asym)}</td></tr>`; }).join('')}</tbody></table>`;
     $('#downloads').innerHTML = `<ul class="dl">
+      <li><button class="link inline" data-open="png">PNG still of the current view (2560 px)</button> · <button class="link inline" data-open="gif">Animated GIF, 480–1200 px</button></li>
       <li><a href="${esc(sc.downloads.contacts)}" download>Contacts CSV (full precision, class and earlier annotation)</a></li>
       <li><a href="${esc(sc.downloads.cif)}" download>Scene mmCIF (native identities)</a></li>
       ${sc.downloads.pymol ? `<li><a href="${esc(sc.downloads.pymol)}" download>PyMOL script (same atoms, pairs and view; run from the repository root)</a></li>` : ''}
