@@ -1,0 +1,10 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:OBD,CLA:G:801:O2D,HA,HA,3.33617,intra,intramolecular keto-to-ester oxygen separation,1.0,1.0,7.77,0.0
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:OBD,THR:G:739:OG1,HA,A,3.18559,polar,donor-compatible proximity,1.0,1.0,7.77,302.65
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O2D,THR:G:739:OG1,HA,A,2.70773,polar,donor-compatible proximity,1.0,1.0,0.0,302.65
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O2D,HOH:G:907:O,HA,TP,3.94562,context,water oxygen proximity,1.0,1.0,0.0,0.0
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O2D,TYR:G:599:OH,HA,A,4.50738,context,context distance beyond 4 A contact screen,1.0,1.0,0.0,372.18
+9AU4_prot2_P_A,9AU4,2,P_A,HOH:G:907:O,THR:G:739:OG1,TP,A,2.99663,water,water-protein proximity,1.0,1.0,0.0,302.65
+9AU4_prot2_P_A,9AU4,2,P_A,HOH:G:907:O,TYR:G:599:OH,TP,A,4.59653,context,context water-protein distance beyond 3.5 A bridge screen,1.0,1.0,0.0,372.18
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O1A,TYR:G:731:OH,HA,A,2.83656,polar,donor-compatible proximity,1.0,1.0,16.82,332.19
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:MG,HIS:G:676:NE2,HA,A,2.75056,mg,Mg coordination,1.0,1.0,0.0,167.7

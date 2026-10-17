@@ -1,0 +1,5 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O1,TRP:1:693:NE1,LN,W,3.23200,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,90.92,81.58
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O1,MET:1:684:O,LN,W,3.27008,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,90.92,65.94
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O1,SER:1:688:OG,LN,W,3.48122,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,90.92,70.77
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O4,LEU:1:718:N,LN,W,2.60442,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,67.99,76.77

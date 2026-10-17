@@ -1,0 +1,9 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:O1A,TYR:bA:733:OH,DF,M,2.83534,polar,polar heavy-atom candidate,1.0,1.0,76.93,68.15
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:OBD,SER:bA:741:OG,DF,M,2.91458,polar,polar heavy-atom candidate,1.0,1.0,79.09,80.32
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:O2D,TYR:bA:601:OH,DF,M,3.39424,polar,polar heavy-atom candidate,1.0,1.0,70.5,72.63
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:O2D,HOH:bA:3210:O,DF,UO,3.46860,water,water proximity,1.0,1.0,70.5,80.13
+9SK3_prot2_special_pair,9SK3,2,special_pair,CL7:bB:1021:O1D,TYR:bB:721:N,IH,N,3.11742,polar,polar heavy-atom candidate,1.0,1.0,81.14,67.14
+9SK3_prot2_special_pair,9SK3,2,special_pair,CL7:bB:1021:O2A,TYR:bB:717:OH,IH,N,3.39416,polar,polar heavy-atom candidate,1.0,1.0,80.75,77.06
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:MG,HIS:bA:678:NE2,DF,M,2.30494,mg,Mg coordination,1.0,1.0,73.47,59.79
+9SK3_prot2_special_pair,9SK3,2,special_pair,CL7:bB:1021:MG,HIS:bB:654:NE2,IH,N,2.30256,mg,Mg coordination,1.0,1.0,59.67,57.33

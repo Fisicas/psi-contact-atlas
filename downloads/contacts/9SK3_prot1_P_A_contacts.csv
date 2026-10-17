@@ -1,0 +1,13 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,TYR:aA:601:OH,PO,A,2.95036,water,water proximity,1.0,1.0,71.42,73.74
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,SER:aA:605:OG,PO,A,2.91193,water,water proximity,1.0,1.0,71.42,80.61
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,GLY:aA:737:O,PO,A,2.97314,water,water proximity,1.0,1.0,71.42,72.06
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O2D,HOH:aA:3210:O,KA,PO,3.40234,water,water proximity,1.0,1.0,67.71,71.42
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:MG,HIS:aA:678:NE2,KA,A,2.30407,mg,Mg coordination,1.0,1.0,69.22,55.81
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:OBD,G9R:aA:1011:O2D,KA,KA,3.78481,intra,intramolecular oxygen separation,1.0,1.0,74.86,67.71
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O2D,TYR:aA:601:OH,KA,A,3.40940,polar,polar heavy-atom candidate,1.0,1.0,67.71,73.74
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O1A,TYR:aA:733:OH,KA,A,2.86739,polar,polar heavy-atom candidate,1.0,1.0,68.8,67.38
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O1A,TRP:aA:681:NE1,KA,A,3.64418,context,longer context distance,1.0,1.0,68.8,60.7
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,SER:aA:741:OG,PO,A,2.87888,water,water proximity,1.0,1.0,71.42,80.06
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:OBD,SER:aA:741:OG,KA,A,3.01241,polar,polar heavy-atom candidate,1.0,1.0,74.86,80.06
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O2D,SER:aA:741:OG,KA,A,3.61424,context,longer context distance,1.0,1.0,67.71,80.06

@@ -1,0 +1,8 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:MG,HIS:1:676:NE2,XL,W,2.93727,mg,Mg coordination,1.0,1.0,60.19,74.5
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:OBD,CLA:1:1011:O2D,XL,XL,3.78844,intra,intramolecular oxygen separation,1.0,1.0,73.09,103.49
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:OBD,THR:1:739:OG1,XL,W,3.99628,context,longer context distance,1.0,1.0,73.09,56.08
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O2D,THR:1:739:OG1,XL,W,5.21424,context,longer context distance,1.0,1.0,103.49,56.08
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O2D,TYR:1:599:OH,XL,W,3.36492,polar,polar heavy-atom candidate,1.0,1.0,103.49,59.84
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O1A,TYR:1:731:OH,XL,W,2.62500,polar,polar heavy-atom candidate,1.0,1.0,73.17,55.8
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O1A,PHE:1:679:CE1,XL,W,3.90728,packing,packing distance,1.0,1.0,73.17,70.21

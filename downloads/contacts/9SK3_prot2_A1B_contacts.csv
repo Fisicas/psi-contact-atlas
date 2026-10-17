@@ -1,0 +1,4 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9SK3_prot2_A1B,9SK3,2,A1B,PQN:bB:2002:O1,SER:bB:666:OG,WI,N,3.09717,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.22,69.64
+9SK3_prot2_A1B,9SK3,2,A1B,PQN:bB:2002:O1,TRP:bB:671:NE1,WI,N,3.43483,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.22,72.06
+9SK3_prot2_A1B,9SK3,2,A1B,PQN:bB:2002:O4,LEU:bB:700:N,WI,N,2.96584,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,80.71,74.4

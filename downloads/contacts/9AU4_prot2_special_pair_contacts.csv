@@ -1,0 +1,10 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:O1A,TYR:G:731:OH,HA,A,2.83656,polar,polar heavy-atom candidate,1.0,1.0,16.82,332.19
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:OBD,THR:G:739:OG1,HA,A,3.18559,polar,polar heavy-atom candidate,1.0,1.0,7.77,302.65
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:O2D,THR:G:739:OG1,HA,A,2.70773,polar,polar heavy-atom candidate,1.0,1.0,0.0,302.65
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:O1A,TRP:H:654:NE1,LC,B,3.41391,polar,polar heavy-atom candidate,1.0,1.0,0.0,291.94
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:O1D,TYR:H:718:N,LC,B,2.97762,polar,polar heavy-atom candidate,1.0,1.0,0.0,319.64
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:O1D,HOH:G:907:O,HA,TP,3.91847,context,longer water context,1.0,1.0,0.43,0.0
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:MG,HIS:G:676:NE2,HA,A,2.75056,mg,Mg coordination,1.0,1.0,0.0,167.7
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:MG,HIS:H:651:NE2,LC,B,2.79730,mg,Mg coordination,1.0,1.0,0.0,155.52
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:O2D,HOH:H:2239:O,LC,UP,4.97896,context,longer water context,1.0,1.0,0.0,7.25

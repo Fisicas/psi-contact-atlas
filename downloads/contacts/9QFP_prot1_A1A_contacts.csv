@@ -1,0 +1,5 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O1,MET:A:688:O,VA,A,3.22541,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,23.8,26.16
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O1,SER:A:692:OG,VA,A,3.16228,polar,polar heavy-atom candidate,1.0,1.0,23.8,29.19
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O1,TRP:A:697:NE1,VA,A,3.27685,polar,polar heavy-atom candidate,1.0,1.0,23.8,22.11
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O4,LEU:A:722:N,VA,A,2.91937,polar,polar heavy-atom candidate,1.0,1.0,24.45,26.32

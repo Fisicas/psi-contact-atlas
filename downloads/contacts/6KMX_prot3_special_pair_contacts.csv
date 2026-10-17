@@ -1,0 +1,9 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O1A,TYR:cA:764:OH,JJ,S,2.91655,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.26
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O2D,THR:cA:772:OG1,JJ,S,3.10997,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.34
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:OBD,THR:cA:772:OG1,JJ,S,3.25203,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.34
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O2D,TYR:cA:632:OH,JJ,S,3.30322,polar,polar heavy-atom candidate,1.0,1.0,14.33,12.3
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O2D,HOH:cA:917:O,JJ,QO,3.44240,water,water proximity,1.0,1.0,14.33,13.64
+6KMX_prot3_special_pair,6KMX,3,special_pair,CLA:cB:801:O1D,TYR:cB:730:N,KL,T,3.05688,polar,polar heavy-atom candidate,1.0,1.0,11.46,11.37
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:MG,HIS:cA:709:NE2,JJ,S,2.21791,mg,Mg coordination,1.0,1.0,14.33,13.93
+6KMX_prot3_special_pair,6KMX,3,special_pair,CLA:cB:801:MG,HIS:cB:664:NE2,KL,T,2.23350,mg,Mg coordination,1.0,1.0,11.46,15.5

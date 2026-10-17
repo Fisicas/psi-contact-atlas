@@ -1,0 +1,13 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,TYR:A:599:OH,IR,A,3.64248,context,longer water context,1.0,1.0,43.08,49.62
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,SER:A:603:OG,IR,A,2.89006,water,water proximity,1.0,1.0,43.08,42.43
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,GLY:A:735:O,IR,A,3.78324,context,longer water context,1.0,1.0,43.08,46.0
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,THR:A:739:OG1,IR,A,2.97620,water,water proximity,1.0,1.0,43.08,42.52
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O2D,HOH:A:8111:O,HA,IR,4.02545,context,longer water context,1.0,1.0,74.46,43.08
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:MG,HIS:A:676:NE2,HA,A,2.81404,mg,Mg coordination,1.0,1.0,49.21,42.47
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:OBD,CLA:A:1011:O2D,HA,HA,3.09527,intra,intramolecular oxygen separation,1.0,1.0,33.0,74.46
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:OBD,THR:A:739:OG1,HA,A,3.08089,polar,polar heavy-atom candidate,1.0,1.0,33.0,42.52
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O2D,THR:A:739:OG1,HA,A,2.92436,polar,polar heavy-atom candidate,1.0,1.0,74.46,42.52
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O2D,TYR:A:599:OH,HA,A,3.78669,context,longer context distance,1.0,1.0,74.46,49.62
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O1A,TYR:A:731:OH,HA,A,2.59133,polar,polar heavy-atom candidate,1.0,1.0,42.93,42.32
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O1A,PHE:A:679:CE1,HA,A,3.65619,packing,packing distance,1.0,1.0,42.93,40.94

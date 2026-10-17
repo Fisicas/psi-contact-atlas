@@ -1,0 +1,4 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9AU4_prot3_A1B,9AU4,3,A1B,A1AGD:b:2153:O1,LEU:b:697:N,NJ,M,3.17941,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,310.13
+9AU4_prot3_A1B,9AU4,3,A1B,A1AGD:b:2153:O2,TRP:b:668:NE1,NJ,M,3.17818,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,243.73
+9AU4_prot3_A1B,9AU4,3,A1B,A1AGD:b:2153:O2,SER:b:663:OG,NJ,M,3.05706,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,323.72

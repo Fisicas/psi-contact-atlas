@@ -1,0 +1,753 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+1JB0_prot1_A1A,1JB0,1,A1A,PQN:A:2001:O1,MET:A:688:O,GB,A,3.02300,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,44.05,33.23
+1JB0_prot1_A1A,1JB0,1,A1A,PQN:A:2001:O1,SER:A:692:OG,GB,A,3.28039,polar,polar heavy-atom candidate,1.0,1.0,44.05,28.83
+1JB0_prot1_A1A,1JB0,1,A1A,PQN:A:2001:O1,TRP:A:697:NE1,GB,A,3.32349,polar,polar heavy-atom candidate,1.0,1.0,44.05,33.37
+1JB0_prot1_A1A,1JB0,1,A1A,PQN:A:2001:O1,PHE:A:689:N,GB,A,3.41066,polar,polar heavy-atom candidate,1.0,1.0,44.05,32.86
+1JB0_prot1_A1A,1JB0,1,A1A,PQN:A:2001:O4,LEU:A:722:N,GB,A,2.69423,polar,polar heavy-atom candidate,1.0,1.0,42.18,31.97
+1JB0_prot1_A1B,1JB0,1,A1B,PQN:B:2002:O1,MET:B:668:O,FD,B,3.17181,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,28.34,23.84
+1JB0_prot1_A1B,1JB0,1,A1B,PQN:B:2002:O1,SER:B:672:OG,FD,B,3.35676,polar,polar heavy-atom candidate,1.0,1.0,28.34,26.29
+1JB0_prot1_A1B,1JB0,1,A1B,PQN:B:2002:O1,TRP:B:677:NE1,FD,B,3.40198,polar,polar heavy-atom candidate,1.0,1.0,28.34,32.76
+1JB0_prot1_A1B,1JB0,1,A1B,PQN:B:2002:O1,PHE:B:669:N,FD,B,3.44011,polar,polar heavy-atom candidate,1.0,1.0,28.34,26.06
+1JB0_prot1_A1B,1JB0,1,A1B,PQN:B:2002:O4,LEU:B:706:N,FD,B,2.75251,polar,polar heavy-atom candidate,1.0,1.0,30.17,23.73
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:A:1011:O1A,TYR:A:735:OH,M,A,2.75045,polar,polar heavy-atom candidate,1.0,1.0,38.96,26.26
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:A:1011:OBD,THR:A:743:OG1,M,A,2.97978,polar,polar heavy-atom candidate,1.0,1.0,29.8,36.51
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:A:1011:O2D,THR:A:743:OG1,M,A,3.13463,polar,polar heavy-atom candidate,1.0,1.0,37.09,36.51
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:A:1011:O2D,TYR:A:603:OH,M,A,3.27081,polar,polar heavy-atom candidate,1.0,1.0,37.09,27.72
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:A:1011:O2D,HOH:A:5011:O,M,KE,3.27717,water,water proximity,1.0,1.0,37.09,23.29
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:B:1021:O1D,TYR:B:727:N,QB,B,3.00959,polar,polar heavy-atom candidate,1.0,1.0,37.87,29.24
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:A:1011:MG,HIS:A:680:NE2,M,A,2.26021,mg,Mg coordination,1.0,1.0,29.49,31.96
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:B:1021:MG,HIS:B:660:NE2,QB,B,2.35974,mg,Mg coordination,1.0,1.0,28.59,27.74
+1JB0_prot1_special_pair,1JB0,1,special_pair,CLA:B:1021:O2D,HOH:B:5025:O,QB,LE,4.98809,context,longer water context,1.0,1.0,35.93,27.93
+1JB0_prot1_P_A,1JB0,1,P_A,HOH:A:5011:O,TYR:A:603:OH,KE,A,2.72176,water,water proximity,1.0,1.0,23.29,27.72
+1JB0_prot1_P_A,1JB0,1,P_A,HOH:A:5011:O,SER:A:607:OG,KE,A,2.89293,water,water proximity,1.0,1.0,23.29,34.47
+1JB0_prot1_P_A,1JB0,1,P_A,HOH:A:5011:O,GLY:A:739:O,KE,A,3.25970,water,water proximity,1.0,1.0,23.29,32.41
+1JB0_prot1_P_A,1JB0,1,P_A,HOH:A:5011:O,THR:A:743:OG1,KE,A,2.70120,water,water proximity,1.0,1.0,23.29,36.51
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:O2D,HOH:A:5011:O,M,KE,3.27717,water,water proximity,1.0,1.0,37.09,23.29
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:MG,HIS:A:680:NE2,M,A,2.26021,mg,Mg coordination,1.0,1.0,29.49,31.96
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:OBD,CLA:A:1011:O2D,M,M,3.41716,intra,intramolecular oxygen separation,1.0,1.0,29.8,37.09
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:OBD,THR:A:743:OG1,M,A,2.97978,polar,polar heavy-atom candidate,1.0,1.0,29.8,36.51
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:O2D,THR:A:743:OG1,M,A,3.13463,polar,polar heavy-atom candidate,1.0,1.0,37.09,36.51
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:O2D,TYR:A:603:OH,M,A,3.27081,polar,polar heavy-atom candidate,1.0,1.0,37.09,27.72
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:O1A,TYR:A:735:OH,M,A,2.75045,polar,polar heavy-atom candidate,1.0,1.0,38.96,26.26
+1JB0_prot1_P_A,1JB0,1,P_A,CLA:A:1011:O1A,TRP:A:683:NE1,M,A,3.57499,context,longer polar context,1.0,1.0,38.96,27.5
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O1,TRP:1:693:NE1,LN,W,3.23200,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,90.92,81.58
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O1,MET:1:684:O,LN,W,3.27008,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,90.92,65.94
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O1,SER:1:688:OG,LN,W,3.48122,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,90.92,70.77
+5OY0_prot1_A1A,5OY0,1,A1A,PQN:1:2001:O4,LEU:1:718:N,LN,W,2.60442,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,67.99,76.77
+5OY0_prot1_A1B,5OY0,1,A1B,PQN:2:2002:O1,TRP:2:668:NE1,UP,X,3.19975,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,58.64,60.64
+5OY0_prot1_A1B,5OY0,1,A1B,PQN:2:2002:O1,SER:2:663:OG,UP,X,3.37409,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,58.64,63.31
+5OY0_prot1_A1B,5OY0,1,A1B,PQN:2:2002:O4,LEU:2:697:N,UP,X,2.71488,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,58.24,59.53
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O1A,TYR:1:731:OH,XL,W,2.62500,polar,polar heavy-atom candidate,1.0,1.0,73.17,55.8
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O2A,TYR:1:599:OH,XL,W,3.09985,polar,polar heavy-atom candidate,1.0,1.0,76.29,59.84
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O1D,GLY:1:735:O,XL,W,3.17402,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,102.79,60.81
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O2D,TYR:1:599:OH,XL,W,3.36492,polar,polar heavy-atom candidate,1.0,1.0,103.49,59.84
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O1D,THR:1:739:N,XL,W,3.40162,polar,polar heavy-atom candidate,1.0,1.0,102.79,75.28
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:2:1021:O2A,TYR:2:714:OH,HO,X,3.05086,polar,polar heavy-atom candidate,1.0,1.0,96.58,84.41
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:2:1021:O1D,TYR:2:718:N,HO,X,3.16836,polar,polar heavy-atom candidate,1.0,1.0,79.14,78.34
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:MG,HIS:1:676:NE2,XL,W,2.93727,mg,Mg coordination,1.0,1.0,60.19,74.5
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:2:1021:MG,HIS:2:651:NE2,HO,X,2.97302,mg,Mg coordination,1.0,1.0,69.55,74.03
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:MG,HIS:1:676:NE2,XL,W,2.93727,mg,Mg coordination,1.0,1.0,60.19,74.5
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:OBD,CLA:1:1011:O2D,XL,XL,3.78844,intra,intramolecular oxygen separation,1.0,1.0,73.09,103.49
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:OBD,THR:1:739:OG1,XL,W,3.99628,context,longer context distance,1.0,1.0,73.09,56.08
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O2D,THR:1:739:OG1,XL,W,5.21424,context,longer context distance,1.0,1.0,103.49,56.08
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O2D,TYR:1:599:OH,XL,W,3.36492,polar,polar heavy-atom candidate,1.0,1.0,103.49,59.84
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O1A,TYR:1:731:OH,XL,W,2.62500,polar,polar heavy-atom candidate,1.0,1.0,73.17,55.8
+5OY0_prot1_P_A,5OY0,1,P_A,CLA:1:1011:O1A,PHE:1:679:CE1,XL,W,3.90728,packing,packing distance,1.0,1.0,73.17,70.21
+5OY0_prot2_A1A,5OY0,2,A1A,PQN:A:2001:O1,TRP:A:693:NE1,VB,A,3.31875,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,50.15,45.2
+5OY0_prot2_A1A,5OY0,2,A1A,PQN:A:2001:O1,MET:A:684:O,VB,A,3.33642,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,50.15,36.62
+5OY0_prot2_A1A,5OY0,2,A1A,PQN:A:2001:O1,SER:A:688:OG,VB,A,3.44395,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,50.15,38.46
+5OY0_prot2_A1A,5OY0,2,A1A,PQN:A:2001:O4,LEU:A:718:N,VB,A,2.64650,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,50.17,44.19
+5OY0_prot2_A1B,5OY0,2,A1B,PQN:B:2002:O1,TRP:B:668:NE1,HE,B,3.38787,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,38.83,32.49
+5OY0_prot2_A1B,5OY0,2,A1B,PQN:B:2002:O1,SER:B:663:OG,HE,B,3.40168,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,38.83,31.02
+5OY0_prot2_A1B,5OY0,2,A1B,PQN:B:2002:O4,LEU:B:697:N,HE,B,2.69485,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,35.85,29.87
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:A:1011:O1A,TYR:A:731:OH,HA,A,2.59133,polar,polar heavy-atom candidate,1.0,1.0,42.93,42.32
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:A:1011:O2D,THR:A:739:OG1,HA,A,2.92436,polar,polar heavy-atom candidate,1.0,1.0,74.46,42.52
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:A:1011:OBD,THR:A:739:OG1,HA,A,3.08089,polar,polar heavy-atom candidate,1.0,1.0,33.0,42.52
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:B:1021:O1D,TYR:B:718:N,VC,B,3.12321,polar,polar heavy-atom candidate,1.0,1.0,46.95,38.74
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:B:1021:O2A,TYR:B:714:OH,VC,B,3.33340,polar,polar heavy-atom candidate,1.0,1.0,56.38,38.68
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:A:1011:O2D,HOH:A:8111:O,HA,IR,4.02545,context,longer water context,1.0,1.0,74.46,43.08
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:A:1011:MG,HIS:A:676:NE2,HA,A,2.81404,mg,Mg coordination,1.0,1.0,49.21,42.47
+5OY0_prot2_special_pair,5OY0,2,special_pair,CLA:B:1021:MG,HIS:B:651:NE2,VC,B,2.88867,mg,Mg coordination,1.0,1.0,41.14,35.91
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,TYR:A:599:OH,IR,A,3.64248,context,longer water context,1.0,1.0,43.08,49.62
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,SER:A:603:OG,IR,A,2.89006,water,water proximity,1.0,1.0,43.08,42.43
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,GLY:A:735:O,IR,A,3.78324,context,longer water context,1.0,1.0,43.08,46.0
+5OY0_prot2_P_A,5OY0,2,P_A,HOH:A:8111:O,THR:A:739:OG1,IR,A,2.97620,water,water proximity,1.0,1.0,43.08,42.52
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O2D,HOH:A:8111:O,HA,IR,4.02545,context,longer water context,1.0,1.0,74.46,43.08
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:MG,HIS:A:676:NE2,HA,A,2.81404,mg,Mg coordination,1.0,1.0,49.21,42.47
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:OBD,CLA:A:1011:O2D,HA,HA,3.09527,intra,intramolecular oxygen separation,1.0,1.0,33.0,74.46
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:OBD,THR:A:739:OG1,HA,A,3.08089,polar,polar heavy-atom candidate,1.0,1.0,33.0,42.52
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O2D,THR:A:739:OG1,HA,A,2.92436,polar,polar heavy-atom candidate,1.0,1.0,74.46,42.52
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O2D,TYR:A:599:OH,HA,A,3.78669,context,longer context distance,1.0,1.0,74.46,49.62
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O1A,TYR:A:731:OH,HA,A,2.59133,polar,polar heavy-atom candidate,1.0,1.0,42.93,42.32
+5OY0_prot2_P_A,5OY0,2,P_A,CLA:A:1011:O1A,PHE:A:679:CE1,HA,A,3.65619,packing,packing distance,1.0,1.0,42.93,40.94
+5OY0_prot3_A1A,5OY0,3,A1A,PQN:a:2001:O1,TRP:a:693:NE1,SH,L,3.31466,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,55.94,58.65
+5OY0_prot3_A1A,5OY0,3,A1A,PQN:a:2001:O1,MET:a:684:O,SH,L,3.46869,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,55.94,57.62
+5OY0_prot3_A1A,5OY0,3,A1A,PQN:a:2001:O4,LEU:a:718:N,SH,L,2.72966,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,67.95,66.2
+5OY0_prot3_A1B,5OY0,3,A1B,PQN:b:2002:O1,TRP:b:668:NE1,DK,M,3.33106,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,48.88,55.38
+5OY0_prot3_A1B,5OY0,3,A1B,PQN:b:2002:O4,LEU:b:697:N,DK,M,2.78987,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,51.42,51.06
+5OY0_prot3_special_pair,5OY0,3,special_pair,CLA:a:1011:O1A,TYR:a:731:OH,FG,L,2.89686,polar,polar heavy-atom candidate,1.0,1.0,68.5,58.61
+5OY0_prot3_special_pair,5OY0,3,special_pair,CLA:a:1011:O1D,GLY:a:735:O,FG,L,3.39660,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,96.93,67.23
+5OY0_prot3_special_pair,5OY0,3,special_pair,CLA:b:1021:O1D,TYR:b:718:N,RI,M,3.32768,polar,polar heavy-atom candidate,1.0,1.0,54.98,48.02
+5OY0_prot3_special_pair,5OY0,3,special_pair,CLA:b:1021:O2A,TYR:b:714:OH,RI,M,3.47077,polar,polar heavy-atom candidate,1.0,1.0,49.7,50.61
+5OY0_prot3_special_pair,5OY0,3,special_pair,CLA:b:1021:MG,HIS:b:651:NE2,RI,M,2.84179,mg,Mg coordination,1.0,1.0,56.66,52.73
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:MG,HIS:a:676:NE2,FG,L,3.92402,mg,Mg coordination,1.0,1.0,54.81,72.45
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:OBD,CLA:a:1011:O2D,FG,FG,3.91986,intra,intramolecular oxygen separation,1.0,1.0,63.63,81.4
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:OBD,THR:a:739:OG1,FG,L,4.02777,context,longer context distance,1.0,1.0,63.63,86.49
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:O2D,THR:a:739:OG1,FG,L,5.71440,context,longer context distance,1.0,1.0,81.4,86.49
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:O2D,TYR:a:599:OH,FG,L,3.80953,context,longer context distance,1.0,1.0,81.4,64.13
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:O1A,TYR:a:731:OH,FG,L,2.89686,polar,polar heavy-atom candidate,1.0,1.0,68.5,58.61
+5OY0_prot3_P_A,5OY0,3,P_A,CLA:a:1011:O1A,PHE:a:679:CE1,FG,L,3.70267,packing,packing distance,1.0,1.0,68.5,59.04
+6KMW_prot1_A1A,6KMW,1,A1A,PQN:aA:844:O1,MET:aA:697:O,PB,A,2.96484,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,19.85,7.18
+6KMW_prot1_A1A,6KMW,1,A1A,PQN:aA:844:O1,SER:aA:701:OG,PB,A,3.11728,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.85,8.05
+6KMW_prot1_A1A,6KMW,1,A1A,PQN:aA:844:O1,TRP:aA:706:NE1,PB,A,3.31420,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.85,11.82
+6KMW_prot1_A1A,6KMW,1,A1A,PQN:aA:844:O4,LEU:aA:731:N,PB,A,2.83423,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.85,16.33
+6KMW_prot1_A1B,6KMW,1,A1B,PQN:aB:842:O1,MET:aB:670:O,RD,B,3.09185,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,16.21,16.21
+6KMW_prot1_A1B,6KMW,1,A1B,PQN:aB:842:O1,SER:aB:674:OG,RD,B,3.12197,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,7.42
+6KMW_prot1_A1B,6KMW,1,A1B,PQN:aB:842:O1,TRP:aB:679:NE1,RD,B,3.32268,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,16.21
+6KMW_prot1_A1B,6KMW,1,A1B,PQN:aB:842:O4,LEU:aB:708:N,RD,B,2.91005,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,7.17
+6KMW_prot1_special_pair,6KMW,1,special_pair,CL0:aA:801:OBD,THR:aA:752:OG1,Y,A,3.11538,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.41
+6KMW_prot1_special_pair,6KMW,1,special_pair,CL0:aA:801:O2D,TYR:aA:612:OH,Y,A,3.14218,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.11
+6KMW_prot1_special_pair,6KMW,1,special_pair,CL0:aA:801:O2D,HOH:aA:913:O,Y,AO,3.29279,water,water proximity,1.0,1.0,16.21,13.15
+6KMW_prot1_special_pair,6KMW,1,special_pair,CL0:aA:801:O2D,THR:aA:752:OG1,Y,A,3.34420,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.41
+6KMW_prot1_special_pair,6KMW,1,special_pair,CL0:aA:801:O1A,TRP:aA:692:NE1,Y,A,3.37595,polar,polar heavy-atom candidate,1.0,1.0,16.21,3.33
+6KMW_prot1_special_pair,6KMW,1,special_pair,CLA:aB:803:O1D,TYR:aB:729:N,EC,B,3.08332,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.02
+6KMW_prot1_special_pair,6KMW,1,special_pair,CL0:aA:801:MG,HIS:aA:689:NE2,Y,A,2.21681,mg,Mg coordination,1.0,1.0,16.21,6.38
+6KMW_prot1_special_pair,6KMW,1,special_pair,CLA:aB:803:MG,HIS:aB:662:NE2,EC,B,2.27513,mg,Mg coordination,1.0,1.0,16.21,16.21
+6KMW_prot1_P_A,6KMW,1,P_A,HOH:aA:913:O,TYR:aA:612:OH,AO,A,3.01224,water,water proximity,1.0,1.0,13.15,5.11
+6KMW_prot1_P_A,6KMW,1,P_A,HOH:aA:913:O,SER:aA:616:OG,AO,A,3.34016,water,water proximity,1.0,1.0,13.15,5.51
+6KMW_prot1_P_A,6KMW,1,P_A,HOH:aA:913:O,GLY:aA:748:O,AO,A,2.99427,water,water proximity,1.0,1.0,13.15,7.35
+6KMW_prot1_P_A,6KMW,1,P_A,HOH:aA:913:O,THR:aA:752:OG1,AO,A,2.48692,water,water proximity,1.0,1.0,13.15,9.41
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:O2D,HOH:aA:913:O,Y,AO,3.29279,water,water proximity,1.0,1.0,16.21,13.15
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:MG,HIS:aA:689:NE2,Y,A,2.21681,mg,Mg coordination,1.0,1.0,16.21,6.38
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:OBD,CL0:aA:801:O2D,Y,Y,3.66125,intra,intramolecular oxygen separation,1.0,1.0,16.21,16.21
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:OBD,THR:aA:752:OG1,Y,A,3.11538,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.41
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:O2D,THR:aA:752:OG1,Y,A,3.34420,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.41
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:O2D,TYR:aA:612:OH,Y,A,3.14218,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.11
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:O1A,PHE:aA:744:CZ,Y,A,3.80211,packing,packing distance,1.0,1.0,16.21,5.14
+6KMW_prot1_P_A,6KMW,1,P_A,CL0:aA:801:O1A,TRP:aA:692:NE1,Y,A,3.37595,polar,polar heavy-atom candidate,1.0,1.0,16.21,3.33
+6KMW_prot2_A1A,6KMW,2,A1A,PQN:bA:844:O1,MET:bA:697:O,HG,I,2.96547,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,19.49,7.1
+6KMW_prot2_A1A,6KMW,2,A1A,PQN:bA:844:O1,SER:bA:701:OG,HG,I,3.11751,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.49,8.22
+6KMW_prot2_A1A,6KMW,2,A1A,PQN:bA:844:O1,TRP:bA:706:NE1,HG,I,3.31430,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.49,12.04
+6KMW_prot2_A1A,6KMW,2,A1A,PQN:bA:844:O4,LEU:bA:731:N,HG,I,2.83496,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.49,16.13
+6KMW_prot2_A1B,6KMW,2,A1B,PQN:bB:842:O1,MET:bB:670:O,JI,J,3.09153,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,16.21,16.21
+6KMW_prot2_A1B,6KMW,2,A1B,PQN:bB:842:O1,SER:bB:674:OG,JI,J,3.12208,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,7.36
+6KMW_prot2_A1B,6KMW,2,A1B,PQN:bB:842:O1,TRP:bB:679:NE1,JI,J,3.32180,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,16.21
+6KMW_prot2_A1B,6KMW,2,A1B,PQN:bB:842:O4,LEU:bB:708:N,JI,J,2.91083,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,6.73
+6KMW_prot2_special_pair,6KMW,2,special_pair,CL0:bA:801:OBD,THR:bA:752:OG1,QE,I,3.11408,polar,polar heavy-atom candidate,1.0,1.0,16.21,8.91
+6KMW_prot2_special_pair,6KMW,2,special_pair,CL0:bA:801:O2D,TYR:bA:612:OH,QE,I,3.14324,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.36
+6KMW_prot2_special_pair,6KMW,2,special_pair,CL0:bA:801:O2D,THR:bA:752:OG1,QE,I,3.34347,polar,polar heavy-atom candidate,1.0,1.0,16.21,8.91
+6KMW_prot2_special_pair,6KMW,2,special_pair,CL0:bA:801:O1A,TRP:bA:692:NE1,QE,I,3.37518,polar,polar heavy-atom candidate,1.0,1.0,16.21,3.64
+6KMW_prot2_special_pair,6KMW,2,special_pair,CL0:bA:801:O2D,HOH:bA:916:O,QE,HO,3.43509,water,water proximity,1.0,1.0,16.21,12.5
+6KMW_prot2_special_pair,6KMW,2,special_pair,CLA:bB:803:O1D,TYR:bB:729:N,WG,J,3.08249,polar,polar heavy-atom candidate,1.0,1.0,16.21,4.42
+6KMW_prot2_special_pair,6KMW,2,special_pair,CL0:bA:801:MG,HIS:bA:689:NE2,QE,I,2.21769,mg,Mg coordination,1.0,1.0,16.21,6.4
+6KMW_prot2_special_pair,6KMW,2,special_pair,CLA:bB:803:MG,HIS:bB:662:NE2,WG,J,2.27447,mg,Mg coordination,1.0,1.0,16.21,16.21
+6KMW_prot2_P_A,6KMW,2,P_A,HOH:bA:916:O,TYR:bA:612:OH,HO,I,3.13582,water,water proximity,1.0,1.0,12.5,5.36
+6KMW_prot2_P_A,6KMW,2,P_A,HOH:bA:916:O,SER:bA:616:OG,HO,I,3.25605,water,water proximity,1.0,1.0,12.5,5.45
+6KMW_prot2_P_A,6KMW,2,P_A,HOH:bA:916:O,GLY:bA:748:O,HO,I,3.12781,water,water proximity,1.0,1.0,12.5,7.21
+6KMW_prot2_P_A,6KMW,2,P_A,HOH:bA:916:O,THR:bA:752:OG1,HO,I,2.55419,water,water proximity,1.0,1.0,12.5,8.91
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:O2D,HOH:bA:916:O,QE,HO,3.43509,water,water proximity,1.0,1.0,16.21,12.5
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:MG,HIS:bA:689:NE2,QE,I,2.21769,mg,Mg coordination,1.0,1.0,16.21,6.4
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:OBD,CL0:bA:801:O2D,QE,QE,3.66001,intra,intramolecular oxygen separation,1.0,1.0,16.21,16.21
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:OBD,THR:bA:752:OG1,QE,I,3.11408,polar,polar heavy-atom candidate,1.0,1.0,16.21,8.91
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:O2D,THR:bA:752:OG1,QE,I,3.34347,polar,polar heavy-atom candidate,1.0,1.0,16.21,8.91
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:O2D,TYR:bA:612:OH,QE,I,3.14324,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.36
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:O1A,PHE:bA:744:CZ,QE,I,3.80225,packing,packing distance,1.0,1.0,16.21,5.75
+6KMW_prot2_P_A,6KMW,2,P_A,CL0:bA:801:O1A,TRP:bA:692:NE1,QE,I,3.37518,polar,polar heavy-atom candidate,1.0,1.0,16.21,3.64
+6KMW_prot3_A1A,6KMW,3,A1A,PQN:cA:844:O1,MET:cA:697:O,ZK,Q,2.96498,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,19.89,7.08
+6KMW_prot3_A1A,6KMW,3,A1A,PQN:cA:844:O1,SER:cA:701:OG,ZK,Q,3.11710,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.89,8.32
+6KMW_prot3_A1A,6KMW,3,A1A,PQN:cA:844:O1,TRP:cA:706:NE1,ZK,Q,3.31438,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.89,12.79
+6KMW_prot3_A1A,6KMW,3,A1A,PQN:cA:844:O4,LEU:cA:731:N,ZK,Q,2.83412,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,19.89,15.79
+6KMW_prot3_A1B,6KMW,3,A1B,PQN:cB:842:O1,MET:cB:670:O,BN,R,3.09177,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,16.21,16.21
+6KMW_prot3_A1B,6KMW,3,A1B,PQN:cB:842:O1,SER:cB:674:OG,BN,R,3.12183,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,7.12
+6KMW_prot3_A1B,6KMW,3,A1B,PQN:cB:842:O1,TRP:cB:679:NE1,BN,R,3.32186,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,16.21
+6KMW_prot3_A1B,6KMW,3,A1B,PQN:cB:842:O4,LEU:cB:708:N,BN,R,2.91026,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,16.21,6.96
+6KMW_prot3_special_pair,6KMW,3,special_pair,CL0:cA:801:OBD,THR:cA:752:OG1,IJ,Q,3.11394,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.65
+6KMW_prot3_special_pair,6KMW,3,special_pair,CL0:cA:801:O2D,TYR:cA:612:OH,IJ,Q,3.14279,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.1
+6KMW_prot3_special_pair,6KMW,3,special_pair,CL0:cA:801:O2D,HOH:cA:912:O,IJ,OO,3.30044,water,water proximity,1.0,1.0,16.21,12.12
+6KMW_prot3_special_pair,6KMW,3,special_pair,CL0:cA:801:O2D,THR:cA:752:OG1,IJ,Q,3.34445,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.65
+6KMW_prot3_special_pair,6KMW,3,special_pair,CL0:cA:801:O1A,TRP:cA:692:NE1,IJ,Q,3.37553,polar,polar heavy-atom candidate,1.0,1.0,16.21,3.41
+6KMW_prot3_special_pair,6KMW,3,special_pair,CLA:cB:803:O1D,TYR:cB:729:N,OL,R,3.08335,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.28
+6KMW_prot3_special_pair,6KMW,3,special_pair,CL0:cA:801:MG,HIS:cA:689:NE2,IJ,Q,2.21755,mg,Mg coordination,1.0,1.0,16.21,6.4
+6KMW_prot3_special_pair,6KMW,3,special_pair,CLA:cB:803:MG,HIS:cB:662:NE2,OL,R,2.27473,mg,Mg coordination,1.0,1.0,16.21,16.21
+6KMW_prot3_P_A,6KMW,3,P_A,HOH:cA:912:O,TYR:cA:612:OH,OO,Q,3.08290,water,water proximity,1.0,1.0,12.12,5.1
+6KMW_prot3_P_A,6KMW,3,P_A,HOH:cA:912:O,SER:cA:616:OG,OO,Q,3.22994,water,water proximity,1.0,1.0,12.12,5.6
+6KMW_prot3_P_A,6KMW,3,P_A,HOH:cA:912:O,GLY:cA:748:O,OO,Q,3.14175,water,water proximity,1.0,1.0,12.12,6.92
+6KMW_prot3_P_A,6KMW,3,P_A,HOH:cA:912:O,THR:cA:752:OG1,OO,Q,2.50532,water,water proximity,1.0,1.0,12.12,9.65
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:O2D,HOH:cA:912:O,IJ,OO,3.30044,water,water proximity,1.0,1.0,16.21,12.12
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:MG,HIS:cA:689:NE2,IJ,Q,2.21755,mg,Mg coordination,1.0,1.0,16.21,6.4
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:OBD,CL0:cA:801:O2D,IJ,IJ,3.66089,intra,intramolecular oxygen separation,1.0,1.0,16.21,16.21
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:OBD,THR:cA:752:OG1,IJ,Q,3.11394,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.65
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:O2D,THR:cA:752:OG1,IJ,Q,3.34445,polar,polar heavy-atom candidate,1.0,1.0,16.21,9.65
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:O2D,TYR:cA:612:OH,IJ,Q,3.14279,polar,polar heavy-atom candidate,1.0,1.0,16.21,5.1
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:O1A,PHE:cA:744:CZ,IJ,Q,3.80190,packing,packing distance,1.0,1.0,16.21,5.15
+6KMW_prot3_P_A,6KMW,3,P_A,CL0:cA:801:O1A,TRP:cA:692:NE1,IJ,Q,3.37553,polar,polar heavy-atom candidate,1.0,1.0,16.21,3.41
+6KMX_prot1_A1A,6KMX,1,A1A,PQN:aA:845:O1,MET:aA:717:O,TB,A,2.96392,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,25.62,14.22
+6KMX_prot1_A1A,6KMX,1,A1A,PQN:aA:845:O1,SER:aA:721:OG,TB,A,3.25083,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,25.62,14.09
+6KMX_prot1_A1A,6KMX,1,A1A,PQN:aA:845:O1,TRP:aA:726:NE1,TB,A,3.37714,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,25.62,18.48
+6KMX_prot1_A1A,6KMX,1,A1A,PQN:aA:845:O4,LEU:aA:751:N,TB,A,2.83169,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,25.62,22.54
+6KMX_prot1_A1B,6KMX,1,A1B,PQN:aB:841:O1,MET:aB:672:O,QD,B,2.98370,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,12.29,12.32
+6KMX_prot1_A1B,6KMX,1,A1B,PQN:aB:841:O1,THR:aB:676:OG1,QD,B,3.01066,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,12.29,7.38
+6KMX_prot1_A1B,6KMX,1,A1B,PQN:aB:841:O1,TRP:aB:681:NE1,QD,B,3.38811,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,12.29,12.1
+6KMX_prot1_A1B,6KMX,1,A1B,PQN:aB:841:O4,LEU:aB:709:N,QD,B,2.91462,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,12.29,8.37
+6KMX_prot1_special_pair,6KMX,1,special_pair,CL0:aA:801:O1A,TYR:aA:764:OH,BA,A,2.91646,polar,polar heavy-atom candidate,1.0,1.0,10.85,11.39
+6KMX_prot1_special_pair,6KMX,1,special_pair,CL0:aA:801:O2D,THR:aA:772:OG1,BA,A,3.11059,polar,polar heavy-atom candidate,1.0,1.0,10.85,13.13
+6KMX_prot1_special_pair,6KMX,1,special_pair,CL0:aA:801:OBD,THR:aA:772:OG1,BA,A,3.25081,polar,polar heavy-atom candidate,1.0,1.0,10.85,13.13
+6KMX_prot1_special_pair,6KMX,1,special_pair,CL0:aA:801:O2D,TYR:aA:632:OH,BA,A,3.30377,polar,polar heavy-atom candidate,1.0,1.0,10.85,9.41
+6KMX_prot1_special_pair,6KMX,1,special_pair,CL0:aA:801:O2D,HOH:aA:918:O,BA,AO,3.48043,water,water proximity,1.0,1.0,10.85,13.12
+6KMX_prot1_special_pair,6KMX,1,special_pair,CLA:aB:801:O1D,TYR:aB:730:N,CC,B,3.05682,polar,polar heavy-atom candidate,1.0,1.0,12.7,11.27
+6KMX_prot1_special_pair,6KMX,1,special_pair,CL0:aA:801:MG,HIS:aA:709:NE2,BA,A,2.21875,mg,Mg coordination,1.0,1.0,10.85,12.26
+6KMX_prot1_special_pair,6KMX,1,special_pair,CLA:aB:801:MG,HIS:aB:664:NE2,CC,B,2.23315,mg,Mg coordination,1.0,1.0,12.7,9.93
+6KMX_prot1_P_A,6KMX,1,P_A,HOH:aA:918:O,TYR:aA:632:OH,AO,A,3.48595,water,water proximity,1.0,1.0,13.12,9.41
+6KMX_prot1_P_A,6KMX,1,P_A,HOH:aA:918:O,SER:aA:636:OG,AO,A,3.18927,water,water proximity,1.0,1.0,13.12,5.52
+6KMX_prot1_P_A,6KMX,1,P_A,HOH:aA:918:O,GLY:aA:768:O,AO,A,3.20118,water,water proximity,1.0,1.0,13.12,12.2
+6KMX_prot1_P_A,6KMX,1,P_A,HOH:aA:918:O,THR:aA:772:OG1,AO,A,2.59393,water,water proximity,1.0,1.0,13.12,13.13
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:O2D,HOH:aA:918:O,BA,AO,3.48043,water,water proximity,1.0,1.0,10.85,13.12
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:MG,HIS:aA:709:NE2,BA,A,2.21875,mg,Mg coordination,1.0,1.0,10.85,12.26
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:OBD,CL0:aA:801:O2D,BA,BA,3.46396,intra,intramolecular oxygen separation,1.0,1.0,10.85,10.85
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:OBD,THR:aA:772:OG1,BA,A,3.25081,polar,polar heavy-atom candidate,1.0,1.0,10.85,13.13
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:O2D,THR:aA:772:OG1,BA,A,3.11059,polar,polar heavy-atom candidate,1.0,1.0,10.85,13.13
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:O2D,TYR:aA:632:OH,BA,A,3.30377,polar,polar heavy-atom candidate,1.0,1.0,10.85,9.41
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:O1A,TYR:aA:764:OH,BA,A,2.91646,polar,polar heavy-atom candidate,1.0,1.0,10.85,11.39
+6KMX_prot1_P_A,6KMX,1,P_A,CL0:aA:801:O1A,PHE:aA:712:CE1,BA,A,4.01947,packing,packing distance,1.0,1.0,10.85,11.1
+6KMX_prot2_A1A,6KMX,2,A1A,PQN:bA:845:O1,MET:bA:717:O,KG,J,2.96387,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,24.8,14.32
+6KMX_prot2_A1A,6KMX,2,A1A,PQN:bA:845:O1,SER:bA:721:OG,KG,J,3.25038,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,24.8,14.16
+6KMX_prot2_A1A,6KMX,2,A1A,PQN:bA:845:O1,TRP:bA:726:NE1,KG,J,3.37698,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,24.8,18.54
+6KMX_prot2_A1A,6KMX,2,A1A,PQN:bA:845:O4,LEU:bA:751:N,KG,J,2.83202,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,24.8,22.01
+6KMX_prot2_A1B,6KMX,2,A1B,PQN:bB:841:O1,MET:bB:672:O,HI,K,2.98355,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,14.67,20.12
+6KMX_prot2_A1B,6KMX,2,A1B,PQN:bB:841:O1,THR:bB:676:OG1,HI,K,3.01084,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,14.67,8.95
+6KMX_prot2_A1B,6KMX,2,A1B,PQN:bB:841:O1,TRP:bB:681:NE1,HI,K,3.38781,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,14.67,13.99
+6KMX_prot2_A1B,6KMX,2,A1B,PQN:bB:841:O4,LEU:bB:709:N,HI,K,2.91536,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,14.67,8.77
+6KMX_prot2_special_pair,6KMX,2,special_pair,CL0:bA:801:O1A,TYR:bA:764:OH,SE,J,2.91696,polar,polar heavy-atom candidate,1.0,1.0,10.04,13.04
+6KMX_prot2_special_pair,6KMX,2,special_pair,CL0:bA:801:O2D,THR:bA:772:OG1,SE,J,3.11012,polar,polar heavy-atom candidate,1.0,1.0,10.04,13.82
+6KMX_prot2_special_pair,6KMX,2,special_pair,CL0:bA:801:OBD,THR:bA:772:OG1,SE,J,3.25194,polar,polar heavy-atom candidate,1.0,1.0,10.04,13.82
+6KMX_prot2_special_pair,6KMX,2,special_pair,CL0:bA:801:O2D,TYR:bA:632:OH,SE,J,3.30248,polar,polar heavy-atom candidate,1.0,1.0,10.04,12.29
+6KMX_prot2_special_pair,6KMX,2,special_pair,CL0:bA:801:O2D,HOH:bA:917:O,SE,IO,3.47320,water,water proximity,1.0,1.0,10.04,14.03
+6KMX_prot2_special_pair,6KMX,2,special_pair,CLA:bB:801:O1D,TYR:bB:730:N,TG,K,3.05693,polar,polar heavy-atom candidate,1.0,1.0,19.63,11.35
+6KMX_prot2_special_pair,6KMX,2,special_pair,CL0:bA:801:MG,HIS:bA:709:NE2,SE,J,2.21787,mg,Mg coordination,1.0,1.0,10.04,14.72
+6KMX_prot2_special_pair,6KMX,2,special_pair,CLA:bB:801:MG,HIS:bB:664:NE2,TG,K,2.23303,mg,Mg coordination,1.0,1.0,19.63,19.27
+6KMX_prot2_P_A,6KMX,2,P_A,HOH:bA:917:O,TYR:bA:632:OH,IO,J,3.49244,water,water proximity,1.0,1.0,14.03,12.29
+6KMX_prot2_P_A,6KMX,2,P_A,HOH:bA:917:O,SER:bA:636:OG,IO,J,3.17902,water,water proximity,1.0,1.0,14.03,6.75
+6KMX_prot2_P_A,6KMX,2,P_A,HOH:bA:917:O,GLY:bA:768:O,IO,J,3.21526,water,water proximity,1.0,1.0,14.03,13.03
+6KMX_prot2_P_A,6KMX,2,P_A,HOH:bA:917:O,THR:bA:772:OG1,IO,J,2.58900,water,water proximity,1.0,1.0,14.03,13.82
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:O2D,HOH:bA:917:O,SE,IO,3.47320,water,water proximity,1.0,1.0,10.04,14.03
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:MG,HIS:bA:709:NE2,SE,J,2.21787,mg,Mg coordination,1.0,1.0,10.04,14.72
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:OBD,CL0:bA:801:O2D,SE,SE,3.46428,intra,intramolecular oxygen separation,1.0,1.0,10.04,10.04
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:OBD,THR:bA:772:OG1,SE,J,3.25194,polar,polar heavy-atom candidate,1.0,1.0,10.04,13.82
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:O2D,THR:bA:772:OG1,SE,J,3.11012,polar,polar heavy-atom candidate,1.0,1.0,10.04,13.82
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:O2D,TYR:bA:632:OH,SE,J,3.30248,polar,polar heavy-atom candidate,1.0,1.0,10.04,12.29
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:O1A,TYR:bA:764:OH,SE,J,2.91696,polar,polar heavy-atom candidate,1.0,1.0,10.04,13.04
+6KMX_prot2_P_A,6KMX,2,P_A,CL0:bA:801:O1A,PHE:bA:712:CE1,SE,J,4.01918,packing,packing distance,1.0,1.0,10.04,12.15
+6KMX_prot3_A1A,6KMX,3,A1A,PQN:cA:845:O1,MET:cA:717:O,BL,S,2.96428,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,25.23,14.13
+6KMX_prot3_A1A,6KMX,3,A1A,PQN:cA:845:O1,SER:cA:721:OG,BL,S,3.25044,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,25.23,14.4
+6KMX_prot3_A1A,6KMX,3,A1A,PQN:cA:845:O1,TRP:cA:726:NE1,BL,S,3.37713,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,25.23,18.91
+6KMX_prot3_A1A,6KMX,3,A1A,PQN:cA:845:O4,LEU:cA:751:N,BL,S,2.83168,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,25.23,22.87
+6KMX_prot3_A1B,6KMX,3,A1B,PQN:cB:841:O1,MET:cB:672:O,YM,T,2.98321,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,12.41,10.33
+6KMX_prot3_A1B,6KMX,3,A1B,PQN:cB:841:O1,THR:cB:676:OG1,YM,T,3.01047,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,12.41,6.57
+6KMX_prot3_A1B,6KMX,3,A1B,PQN:cB:841:O1,TRP:cB:681:NE1,YM,T,3.38770,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,12.41,12.05
+6KMX_prot3_A1B,6KMX,3,A1B,PQN:cB:841:O4,LEU:cB:709:N,YM,T,2.91485,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,12.41,8.48
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O1A,TYR:cA:764:OH,JJ,S,2.91655,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.26
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O2D,THR:cA:772:OG1,JJ,S,3.10997,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.34
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:OBD,THR:cA:772:OG1,JJ,S,3.25203,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.34
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O2D,TYR:cA:632:OH,JJ,S,3.30322,polar,polar heavy-atom candidate,1.0,1.0,14.33,12.3
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:O2D,HOH:cA:917:O,JJ,QO,3.44240,water,water proximity,1.0,1.0,14.33,13.64
+6KMX_prot3_special_pair,6KMX,3,special_pair,CLA:cB:801:O1D,TYR:cB:730:N,KL,T,3.05688,polar,polar heavy-atom candidate,1.0,1.0,11.46,11.37
+6KMX_prot3_special_pair,6KMX,3,special_pair,CL0:cA:801:MG,HIS:cA:709:NE2,JJ,S,2.21791,mg,Mg coordination,1.0,1.0,14.33,13.93
+6KMX_prot3_special_pair,6KMX,3,special_pair,CLA:cB:801:MG,HIS:cB:664:NE2,KL,T,2.23350,mg,Mg coordination,1.0,1.0,11.46,15.5
+6KMX_prot3_P_A,6KMX,3,P_A,HOH:cA:917:O,TYR:cA:632:OH,QO,S,3.47052,water,water proximity,1.0,1.0,13.64,12.3
+6KMX_prot3_P_A,6KMX,3,P_A,HOH:cA:917:O,SER:cA:636:OG,QO,S,3.17352,water,water proximity,1.0,1.0,13.64,6.22
+6KMX_prot3_P_A,6KMX,3,P_A,HOH:cA:917:O,GLY:cA:768:O,QO,S,3.20810,water,water proximity,1.0,1.0,13.64,12.89
+6KMX_prot3_P_A,6KMX,3,P_A,HOH:cA:917:O,THR:cA:772:OG1,QO,S,2.58047,water,water proximity,1.0,1.0,13.64,13.34
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:O2D,HOH:cA:917:O,JJ,QO,3.44240,water,water proximity,1.0,1.0,14.33,13.64
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:MG,HIS:cA:709:NE2,JJ,S,2.21791,mg,Mg coordination,1.0,1.0,14.33,13.93
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:OBD,CL0:cA:801:O2D,JJ,JJ,3.46454,intra,intramolecular oxygen separation,1.0,1.0,14.33,14.33
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:OBD,THR:cA:772:OG1,JJ,S,3.25203,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.34
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:O2D,THR:cA:772:OG1,JJ,S,3.10997,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.34
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:O2D,TYR:cA:632:OH,JJ,S,3.30322,polar,polar heavy-atom candidate,1.0,1.0,14.33,12.3
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:O1A,TYR:cA:764:OH,JJ,S,2.91655,polar,polar heavy-atom candidate,1.0,1.0,14.33,13.26
+6KMX_prot3_P_A,6KMX,3,P_A,CL0:cA:801:O1A,PHE:cA:712:CE1,JJ,S,4.01972,packing,packing distance,1.0,1.0,14.33,12.43
+7COY_prot1_A1A,7COY,1,A1A,PQN:aA:3144:O1,MET:aA:686:O,YB,A,3.10523,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,66.74,37.87
+7COY_prot1_A1A,7COY,1,A1A,PQN:aA:3144:O1,SER:aA:690:OG,YB,A,3.16537,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,66.74,38.51
+7COY_prot1_A1A,7COY,1,A1A,PQN:aA:3144:O1,TRP:aA:695:NE1,YB,A,3.19170,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,66.74,55.87
+7COY_prot1_A1A,7COY,1,A1A,PQN:aA:3144:O4,MET:aA:720:N,YB,A,2.83204,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,71.41,75.83
+7COY_prot1_A1B,7COY,1,A1B,PQN:aB:3027:O1,SER:aB:669:OG,BD,B,3.00772,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,20.78,22.99
+7COY_prot1_A1B,7COY,1,A1B,PQN:aB:3027:O1,TRP:aB:674:NE1,BD,B,3.28044,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,20.78,13.97
+7COY_prot1_A1B,7COY,1,A1B,PQN:aB:3027:O1,LEU:aB:665:O,BD,B,3.47167,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,20.78,12.51
+7COY_prot1_A1B,7COY,1,A1B,PQN:aB:3027:O4,LEU:aB:703:N,BD,B,2.67640,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,21.56,32.04
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O1A,TYR:aA:733:OH,HA,A,2.54391,polar,polar heavy-atom candidate,1.0,1.0,38.09,28.25
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:OBD,SER:aA:741:OG,HA,A,2.76116,polar,polar heavy-atom candidate,1.0,1.0,24.56,36.11
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O2D,TYR:aA:601:OH,HA,A,3.02154,polar,polar heavy-atom candidate,1.0,1.0,29.46,35.01
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O2D,HOH:aA:3210:O,HA,AL,3.31741,water,water proximity,1.0,1.0,29.46,32.0
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O2D,SER:aA:741:OG,HA,A,3.38577,polar,polar heavy-atom candidate,1.0,1.0,29.46,36.11
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:MG,HIS:aA:678:NE2,HA,A,2.06079,mg,Mg coordination,1.0,1.0,17.13,14.49
+7COY_prot1_special_pair,7COY,1,special_pair,CL7:aB:3003:MG,HIS:aB:657:NE2,DC,B,2.31289,mg,Mg coordination,1.0,1.0,20.07,12.16
+7COY_prot1_P_A,7COY,1,P_A,HOH:aA:3210:O,TYR:aA:601:OH,AL,A,3.34851,water,water proximity,1.0,1.0,32.0,35.01
+7COY_prot1_P_A,7COY,1,P_A,HOH:aA:3210:O,SER:aA:605:OG,AL,A,3.06973,water,water proximity,1.0,1.0,32.0,31.93
+7COY_prot1_P_A,7COY,1,P_A,HOH:aA:3210:O,GLY:aA:737:O,AL,A,3.30270,water,water proximity,1.0,1.0,32.0,28.1
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:O2D,HOH:aA:3210:O,HA,AL,3.31741,water,water proximity,1.0,1.0,29.46,32.0
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:MG,HIS:aA:678:NE2,HA,A,2.06079,mg,Mg coordination,1.0,1.0,17.13,14.49
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:OBD,G9R:aA:3101:O2D,HA,HA,3.64569,intra,intramolecular oxygen separation,1.0,1.0,24.56,29.46
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:O2D,TYR:aA:601:OH,HA,A,3.02154,polar,polar heavy-atom candidate,1.0,1.0,29.46,35.01
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:O1A,TYR:aA:733:OH,HA,A,2.54391,polar,polar heavy-atom candidate,1.0,1.0,38.09,28.25
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:O1A,TRP:aA:681:NE1,HA,A,3.55458,context,longer context distance,1.0,1.0,38.09,16.99
+7COY_prot1_P_A,7COY,1,P_A,HOH:aA:3210:O,SER:aA:741:OG,AL,A,2.84403,water,water proximity,1.0,1.0,32.0,36.11
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:OBD,SER:aA:741:OG,HA,A,2.76116,polar,polar heavy-atom candidate,1.0,1.0,24.56,36.11
+7COY_prot1_P_A,7COY,1,P_A,G9R:aA:3101:O2D,SER:aA:741:OG,HA,A,3.38577,polar,polar heavy-atom candidate,1.0,1.0,29.46,36.11
+7COY_prot2_A1A,7COY,2,A1A,PQN:bA:3143:O1,MET:bA:686:O,MF,L,3.07927,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,66.32,37.84
+7COY_prot2_A1A,7COY,2,A1A,PQN:bA:3143:O1,SER:bA:690:OG,MF,L,3.11093,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,66.32,38.61
+7COY_prot2_A1A,7COY,2,A1A,PQN:bA:3143:O1,TRP:bA:695:NE1,MF,L,3.14047,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,66.32,55.17
+7COY_prot2_A1A,7COY,2,A1A,PQN:bA:3143:O4,MET:bA:720:N,MF,L,2.84801,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,68.88,76.54
+7COY_prot2_A1B,7COY,2,A1B,PQN:bB:828:O1,SER:bB:669:OG,QG,M,3.01754,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,20.98,23.34
+7COY_prot2_A1B,7COY,2,A1B,PQN:bB:828:O1,TRP:bB:674:NE1,QG,M,3.29383,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,20.98,13.97
+7COY_prot2_A1B,7COY,2,A1B,PQN:bB:828:O1,LEU:bB:665:O,QG,M,3.47488,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,20.98,12.69
+7COY_prot2_A1B,7COY,2,A1B,PQN:bB:828:O4,LEU:bB:703:N,QG,M,2.69936,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,21.46,31.94
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:O1A,TYR:bA:733:OH,WD,L,2.60271,polar,polar heavy-atom candidate,1.0,1.0,38.84,27.93
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:OBD,SER:bA:741:OG,WD,L,2.73754,polar,polar heavy-atom candidate,1.0,1.0,24.15,34.71
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:O2D,TYR:bA:601:OH,WD,L,3.04250,polar,polar heavy-atom candidate,1.0,1.0,29.26,33.56
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:O1A,TRP:bA:681:NE1,WD,L,3.37807,polar,polar heavy-atom candidate,1.0,1.0,38.84,17.22
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:O2D,HOH:bA:3209:O,WD,DL,3.38138,water,water proximity,1.0,1.0,29.26,31.67
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:O2D,SER:bA:741:OG,WD,L,3.40160,polar,polar heavy-atom candidate,1.0,1.0,29.26,34.71
+7COY_prot2_special_pair,7COY,2,special_pair,G9R:bA:3101:MG,HIS:bA:678:NE2,WD,L,2.04680,mg,Mg coordination,1.0,1.0,16.99,14.11
+7COY_prot2_special_pair,7COY,2,special_pair,CL7:bB:804:MG,HIS:bB:657:NE2,SF,M,2.35852,mg,Mg coordination,1.0,1.0,20.18,12.21
+7COY_prot2_P_A,7COY,2,P_A,HOH:bA:3209:O,TYR:bA:601:OH,DL,L,3.45677,water,water proximity,1.0,1.0,31.67,33.56
+7COY_prot2_P_A,7COY,2,P_A,HOH:bA:3209:O,SER:bA:605:OG,DL,L,3.01547,water,water proximity,1.0,1.0,31.67,30.07
+7COY_prot2_P_A,7COY,2,P_A,HOH:bA:3209:O,GLY:bA:737:O,DL,L,3.43644,water,water proximity,1.0,1.0,31.67,28.93
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:O2D,HOH:bA:3209:O,WD,DL,3.38138,water,water proximity,1.0,1.0,29.26,31.67
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:MG,HIS:bA:678:NE2,WD,L,2.04680,mg,Mg coordination,1.0,1.0,16.99,14.11
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:OBD,G9R:bA:3101:O2D,WD,WD,3.57487,intra,intramolecular oxygen separation,1.0,1.0,24.15,29.26
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:O2D,TYR:bA:601:OH,WD,L,3.04250,polar,polar heavy-atom candidate,1.0,1.0,29.26,33.56
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:O1A,TYR:bA:733:OH,WD,L,2.60271,polar,polar heavy-atom candidate,1.0,1.0,38.84,27.93
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:O1A,TRP:bA:681:NE1,WD,L,3.37807,polar,polar heavy-atom candidate,1.0,1.0,38.84,17.22
+7COY_prot2_P_A,7COY,2,P_A,HOH:bA:3209:O,SER:bA:741:OG,DL,L,2.82867,water,water proximity,1.0,1.0,31.67,34.71
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:OBD,SER:bA:741:OG,WD,L,2.73754,polar,polar heavy-atom candidate,1.0,1.0,24.15,34.71
+7COY_prot2_P_A,7COY,2,P_A,G9R:bA:3101:O2D,SER:bA:741:OG,WD,L,3.40160,polar,polar heavy-atom candidate,1.0,1.0,29.26,34.71
+7COY_prot3_A1A,7COY,3,A1A,PQN:cA:3143:O1,MET:cA:686:O,BJ,W,3.08766,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,66.81,37.5
+7COY_prot3_A1A,7COY,3,A1A,PQN:cA:3143:O1,SER:cA:690:OG,BJ,W,3.11590,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,66.81,38.79
+7COY_prot3_A1A,7COY,3,A1A,PQN:cA:3143:O1,TRP:cA:695:NE1,BJ,W,3.15177,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,66.81,55.78
+7COY_prot3_A1A,7COY,3,A1A,PQN:cA:3143:O4,MET:cA:720:N,BJ,W,2.83501,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,69.72,76.19
+7COY_prot3_A1B,7COY,3,A1B,PQN:cB:828:O1,SER:cB:669:OG,EK,X,3.01638,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,21.04,23.02
+7COY_prot3_A1B,7COY,3,A1B,PQN:cB:828:O1,TRP:cB:674:NE1,EK,X,3.28624,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,21.04,13.92
+7COY_prot3_A1B,7COY,3,A1B,PQN:cB:828:O1,LEU:cB:665:O,EK,X,3.47743,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,21.04,12.75
+7COY_prot3_A1B,7COY,3,A1B,PQN:cB:828:O4,LEU:cB:703:N,EK,X,2.70509,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,20.96,32.23
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:O1A,TYR:cA:733:OH,LH,W,2.67516,polar,polar heavy-atom candidate,1.0,1.0,39.39,27.72
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:OBD,SER:cA:741:OG,LH,W,2.77209,polar,polar heavy-atom candidate,1.0,1.0,24.48,36.72
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:O2D,TYR:cA:601:OH,LH,W,2.99983,polar,polar heavy-atom candidate,1.0,1.0,29.57,33.83
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:O1A,TRP:cA:681:NE1,LH,W,3.27441,polar,polar heavy-atom candidate,1.0,1.0,39.39,16.99
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:O2D,HOH:cA:3210:O,LH,GL,3.36374,water,water proximity,1.0,1.0,29.57,31.88
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:O2D,SER:cA:741:OG,LH,W,3.40126,polar,polar heavy-atom candidate,1.0,1.0,29.57,36.72
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:O1A,TYR:cA:601:OH,LH,W,3.44644,polar,polar heavy-atom candidate,1.0,1.0,39.39,33.83
+7COY_prot3_special_pair,7COY,3,special_pair,G9R:cA:3101:MG,HIS:cA:678:NE2,LH,W,2.06932,mg,Mg coordination,1.0,1.0,17.38,14.81
+7COY_prot3_special_pair,7COY,3,special_pair,CL7:cB:804:MG,HIS:cB:657:NE2,GJ,X,2.33697,mg,Mg coordination,1.0,1.0,20.27,12.56
+7COY_prot3_P_A,7COY,3,P_A,HOH:cA:3210:O,TYR:cA:601:OH,GL,W,3.38700,water,water proximity,1.0,1.0,31.88,33.83
+7COY_prot3_P_A,7COY,3,P_A,HOH:cA:3210:O,SER:cA:605:OG,GL,W,3.10397,water,water proximity,1.0,1.0,31.88,28.54
+7COY_prot3_P_A,7COY,3,P_A,HOH:cA:3210:O,GLY:cA:737:O,GL,W,3.28571,water,water proximity,1.0,1.0,31.88,28.66
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:O2D,HOH:cA:3210:O,LH,GL,3.36374,water,water proximity,1.0,1.0,29.57,31.88
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:MG,HIS:cA:678:NE2,LH,W,2.06932,mg,Mg coordination,1.0,1.0,17.38,14.81
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:OBD,G9R:cA:3101:O2D,LH,LH,3.57577,intra,intramolecular oxygen separation,1.0,1.0,24.48,29.57
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:O2D,TYR:cA:601:OH,LH,W,2.99983,polar,polar heavy-atom candidate,1.0,1.0,29.57,33.83
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:O1A,TYR:cA:733:OH,LH,W,2.67516,polar,polar heavy-atom candidate,1.0,1.0,39.39,27.72
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:O1A,TRP:cA:681:NE1,LH,W,3.27441,polar,polar heavy-atom candidate,1.0,1.0,39.39,16.99
+7COY_prot3_P_A,7COY,3,P_A,HOH:cA:3210:O,SER:cA:741:OG,GL,W,2.83795,water,water proximity,1.0,1.0,31.88,36.72
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:OBD,SER:cA:741:OG,LH,W,2.77209,polar,polar heavy-atom candidate,1.0,1.0,24.48,36.72
+7COY_prot3_P_A,7COY,3,P_A,G9R:cA:3101:O2D,SER:cA:741:OG,LH,W,3.40126,polar,polar heavy-atom candidate,1.0,1.0,29.57,36.72
+9AU4_prot1_A1A,9AU4,1,A1A,A1AGD:A:840:O1,LEU:A:718:N,CM,W,3.06475,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,391.53
+9AU4_prot1_A1A,9AU4,1,A1A,A1AGD:A:840:O2,MET:A:684:O,CM,W,2.74119,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,351.13
+9AU4_prot1_A1A,9AU4,1,A1A,A1AGD:A:840:O2,SER:A:688:OG,CM,W,2.81146,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,321.47
+9AU4_prot1_A1B,9AU4,1,A1B,A1AGD:B:2153:O1,LEU:B:697:N,RO,X,3.17900,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,310.13
+9AU4_prot1_A1B,9AU4,1,A1B,A1AGD:B:2153:O2,SER:B:663:OG,RO,X,3.05687,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,323.72
+9AU4_prot1_A1B,9AU4,1,A1B,A1AGD:B:2153:O2,TRP:B:668:NE1,RO,X,3.17720,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,243.73
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:A:801:O1A,TYR:A:731:OH,PK,W,2.83670,polar,polar heavy-atom candidate,1.0,1.0,16.82,332.19
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:A:801:OBD,THR:A:739:OG1,PK,W,3.18502,polar,polar heavy-atom candidate,1.0,1.0,7.77,302.65
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:A:801:O2D,THR:A:739:OG1,PK,W,2.70818,polar,polar heavy-atom candidate,1.0,1.0,0.0,302.65
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:B:2104:O1A,TRP:B:654:NE1,UM,X,3.41344,polar,polar heavy-atom candidate,1.0,1.0,0.0,291.94
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:B:2104:O1D,TYR:B:718:N,UM,X,2.97826,polar,polar heavy-atom candidate,1.0,1.0,0.0,319.64
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:A:801:O1D,HOH:A:907:O,PK,JQ,3.91806,context,longer water context,1.0,1.0,0.43,0.0
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:A:801:MG,HIS:A:676:NE2,PK,W,2.75108,mg,Mg coordination,1.0,1.0,0.0,167.7
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:B:2104:MG,HIS:B:651:NE2,UM,X,2.79716,mg,Mg coordination,1.0,1.0,0.0,155.52
+9AU4_prot1_special_pair,9AU4,1,special_pair,CLA:B:2104:O2D,HOH:B:2239:O,UM,KQ,4.97845,context,longer water context,1.0,1.0,0.0,7.25
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:OBD,CLA:A:801:O2D,PK,PK,3.33607,intra,intramolecular keto-to-ester oxygen separation,1.0,1.0,7.77,0.0
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:OBD,THR:A:739:OG1,PK,W,3.18502,polar,donor-compatible proximity,1.0,1.0,7.77,302.65
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:O2D,THR:A:739:OG1,PK,W,2.70818,polar,donor-compatible proximity,1.0,1.0,0.0,302.65
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:O2D,HOH:A:907:O,PK,JQ,3.94588,context,water oxygen proximity,1.0,1.0,0.0,0.0
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:O2D,TYR:A:599:OH,PK,W,4.50752,context,context distance beyond 4 A contact screen,1.0,1.0,0.0,372.18
+9AU4_prot1_P_A,9AU4,1,P_A,HOH:A:907:O,THR:A:739:OG1,JQ,W,2.99692,water,water-protein proximity,1.0,1.0,0.0,302.65
+9AU4_prot1_P_A,9AU4,1,P_A,HOH:A:907:O,TYR:A:599:OH,JQ,W,4.59635,context,context water-protein distance beyond 3.5 A bridge screen,1.0,1.0,0.0,372.18
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:O1A,TYR:A:731:OH,PK,W,2.83670,polar,donor-compatible proximity,1.0,1.0,16.82,332.19
+9AU4_prot1_P_A,9AU4,1,P_A,CLA:A:801:MG,HIS:A:676:NE2,PK,W,2.75108,mg,Mg coordination,1.0,1.0,0.0,167.7
+9AU4_prot2_A1A,9AU4,2,A1A,A1AGD:G:840:O1,LEU:G:718:N,UB,A,3.06470,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,391.53
+9AU4_prot2_A1A,9AU4,2,A1A,A1AGD:G:840:O2,SER:G:688:OG,UB,A,2.81145,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,321.47
+9AU4_prot2_A1A,9AU4,2,A1A,A1AGD:G:840:O2,MET:G:684:O,UB,A,2.74097,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,351.13
+9AU4_prot2_A1B,9AU4,2,A1B,A1AGD:H:2153:O1,LEU:H:697:N,JE,B,3.17925,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,310.13
+9AU4_prot2_A1B,9AU4,2,A1B,A1AGD:H:2153:O2,TRP:H:668:NE1,JE,B,3.17675,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,243.73
+9AU4_prot2_A1B,9AU4,2,A1B,A1AGD:H:2153:O2,SER:H:663:OG,JE,B,3.05674,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,323.72
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:O1A,TYR:G:731:OH,HA,A,2.83656,polar,polar heavy-atom candidate,1.0,1.0,16.82,332.19
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:OBD,THR:G:739:OG1,HA,A,3.18559,polar,polar heavy-atom candidate,1.0,1.0,7.77,302.65
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:O2D,THR:G:739:OG1,HA,A,2.70773,polar,polar heavy-atom candidate,1.0,1.0,0.0,302.65
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:O1A,TRP:H:654:NE1,LC,B,3.41391,polar,polar heavy-atom candidate,1.0,1.0,0.0,291.94
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:O1D,TYR:H:718:N,LC,B,2.97762,polar,polar heavy-atom candidate,1.0,1.0,0.0,319.64
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:O1D,HOH:G:907:O,HA,TP,3.91847,context,longer water context,1.0,1.0,0.43,0.0
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:G:801:MG,HIS:G:676:NE2,HA,A,2.75056,mg,Mg coordination,1.0,1.0,0.0,167.7
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:MG,HIS:H:651:NE2,LC,B,2.79730,mg,Mg coordination,1.0,1.0,0.0,155.52
+9AU4_prot2_special_pair,9AU4,2,special_pair,CLA:H:2103:O2D,HOH:H:2239:O,LC,UP,4.97896,context,longer water context,1.0,1.0,0.0,7.25
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:OBD,CLA:G:801:O2D,HA,HA,3.33617,intra,intramolecular keto-to-ester oxygen separation,1.0,1.0,7.77,0.0
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:OBD,THR:G:739:OG1,HA,A,3.18559,polar,donor-compatible proximity,1.0,1.0,7.77,302.65
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O2D,THR:G:739:OG1,HA,A,2.70773,polar,donor-compatible proximity,1.0,1.0,0.0,302.65
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O2D,HOH:G:907:O,HA,TP,3.94562,context,water oxygen proximity,1.0,1.0,0.0,0.0
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O2D,TYR:G:599:OH,HA,A,4.50738,context,context distance beyond 4 A contact screen,1.0,1.0,0.0,372.18
+9AU4_prot2_P_A,9AU4,2,P_A,HOH:G:907:O,THR:G:739:OG1,TP,A,2.99663,water,water-protein proximity,1.0,1.0,0.0,302.65
+9AU4_prot2_P_A,9AU4,2,P_A,HOH:G:907:O,TYR:G:599:OH,TP,A,4.59653,context,context water-protein distance beyond 3.5 A bridge screen,1.0,1.0,0.0,372.18
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:O1A,TYR:G:731:OH,HA,A,2.83656,polar,donor-compatible proximity,1.0,1.0,16.82,332.19
+9AU4_prot2_P_A,9AU4,2,P_A,CLA:G:801:MG,HIS:G:676:NE2,HA,A,2.75056,mg,Mg coordination,1.0,1.0,0.0,167.7
+9AU4_prot3_A1A,9AU4,3,A1A,A1AGD:a:840:O1,LEU:a:718:N,YG,L,3.06387,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,391.53
+9AU4_prot3_A1A,9AU4,3,A1A,A1AGD:a:840:O2,SER:a:688:OG,YG,L,2.81108,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,321.47
+9AU4_prot3_A1A,9AU4,3,A1A,A1AGD:a:840:O2,MET:a:684:O,YG,L,2.74143,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,351.13
+9AU4_prot3_A1B,9AU4,3,A1B,A1AGD:b:2153:O1,LEU:b:697:N,NJ,M,3.17941,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,310.13
+9AU4_prot3_A1B,9AU4,3,A1B,A1AGD:b:2153:O2,TRP:b:668:NE1,NJ,M,3.17818,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,243.73
+9AU4_prot3_A1B,9AU4,3,A1B,A1AGD:b:2153:O2,SER:b:663:OG,NJ,M,3.05706,polar,"Heavy-atom candidate only; donor hydrogens, protonation and angles unvalidated",1.0,1.0,20.0,323.72
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:a:801:O1A,TYR:a:731:OH,LF,L,2.83646,polar,polar heavy-atom candidate,1.0,1.0,16.82,332.19
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:a:801:OBD,THR:a:739:OG1,LF,L,3.18554,polar,polar heavy-atom candidate,1.0,1.0,7.77,302.65
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:a:801:O2D,THR:a:739:OG1,LF,L,2.70796,polar,polar heavy-atom candidate,1.0,1.0,0.0,302.65
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:b:2103:O1A,TRP:b:654:NE1,PH,M,3.41296,polar,polar heavy-atom candidate,1.0,1.0,0.0,291.94
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:b:2103:O1D,TYR:b:718:N,PH,M,2.97848,polar,polar heavy-atom candidate,1.0,1.0,0.0,319.64
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:a:801:O1D,HOH:a:907:O,LF,BQ,3.91800,context,longer water context,1.0,1.0,0.43,0.0
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:a:801:MG,HIS:a:676:NE2,LF,L,2.75134,mg,Mg coordination,1.0,1.0,0.0,167.7
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:b:2103:MG,HIS:b:651:NE2,PH,M,2.79715,mg,Mg coordination,1.0,1.0,0.0,155.52
+9AU4_prot3_special_pair,9AU4,3,special_pair,CLA:b:2103:O2D,HOH:b:2239:O,PH,CQ,4.97865,context,longer water context,1.0,1.0,0.0,7.25
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:OBD,CLA:a:801:O2D,LF,LF,3.33600,intra,intramolecular keto-to-ester oxygen separation,1.0,1.0,7.77,0.0
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:OBD,THR:a:739:OG1,LF,L,3.18554,polar,donor-compatible proximity,1.0,1.0,7.77,302.65
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:O2D,THR:a:739:OG1,LF,L,2.70796,polar,donor-compatible proximity,1.0,1.0,0.0,302.65
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:O2D,HOH:a:907:O,LF,BQ,3.94633,context,water oxygen proximity,1.0,1.0,0.0,0.0
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:O2D,TYR:a:599:OH,LF,L,4.50762,context,context distance beyond 4 A contact screen,1.0,1.0,0.0,372.18
+9AU4_prot3_P_A,9AU4,3,P_A,HOH:a:907:O,THR:a:739:OG1,BQ,L,2.99668,water,water-protein proximity,1.0,1.0,0.0,302.65
+9AU4_prot3_P_A,9AU4,3,P_A,HOH:a:907:O,TYR:a:599:OH,BQ,L,4.59643,context,context water-protein distance beyond 3.5 A bridge screen,1.0,1.0,0.0,372.18
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:O1A,TYR:a:731:OH,LF,L,2.83646,polar,donor-compatible proximity,1.0,1.0,16.82,332.19
+9AU4_prot3_P_A,9AU4,3,P_A,CLA:a:801:MG,HIS:a:676:NE2,LF,L,2.75134,mg,Mg coordination,1.0,1.0,0.0,167.7
+9EYS_prot1_A1A,9EYS,1,A1A,PQN:A:843:O1,SER:A:719:OG,AC,A,3.24093,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,46.09,49.45
+9EYS_prot1_A1A,9EYS,1,A1A,PQN:A:843:O1,TRP:A:724:NE1,AC,A,3.29449,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,46.09,42.62
+9EYS_prot1_A1A,9EYS,1,A1A,PQN:A:843:O1,MET:A:715:O,AC,A,3.46785,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,46.09,47.39
+9EYS_prot1_A1A,9EYS,1,A1A,PQN:A:843:O4,LEU:A:749:N,AC,A,2.85118,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,45.98,46.2
+9EYS_prot1_A1B,9EYS,1,A1B,PQN:B:840:O1,MET:B:669:O,DE,B,3.08204,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,39.82,41.02
+9EYS_prot1_A1B,9EYS,1,A1B,PQN:B:840:O1,THR:B:673:OG1,DE,B,3.21516,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,39.82,42.19
+9EYS_prot1_A1B,9EYS,1,A1B,PQN:B:840:O1,TRP:B:678:NE1,DE,B,3.32638,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,39.82,36.08
+9EYS_prot1_A1B,9EYS,1,A1B,PQN:B:840:O4,LEU:B:706:N,DE,B,2.97536,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,43.0,43.85
+9EYS_prot1_special_pair,9EYS,1,special_pair,CL0:A:801:OBD,THR:A:770:OG1,KA,A,2.87473,polar,polar heavy-atom candidate,1.0,1.0,44.65,47.22
+9EYS_prot1_special_pair,9EYS,1,special_pair,CL0:A:801:O1A,TYR:A:762:OH,KA,A,2.90176,polar,polar heavy-atom candidate,1.0,1.0,46.18,44.34
+9EYS_prot1_special_pair,9EYS,1,special_pair,CL0:A:801:O2D,TYR:A:630:OH,KA,A,3.17469,polar,polar heavy-atom candidate,1.0,1.0,46.08,49.24
+9EYS_prot1_special_pair,9EYS,1,special_pair,CL0:A:801:O2D,HOH:A:907:O,KA,WP,3.35260,water,water proximity,1.0,1.0,46.08,48.01
+9EYS_prot1_special_pair,9EYS,1,special_pair,CL0:A:801:O2D,THR:A:770:OG1,KA,A,3.38329,polar,polar heavy-atom candidate,1.0,1.0,46.08,47.22
+9EYS_prot1_special_pair,9EYS,1,special_pair,CLA:B:801:O1D,TYR:B:727:N,QC,B,2.95472,polar,polar heavy-atom candidate,1.0,1.0,52.23,41.54
+9EYS_prot1_special_pair,9EYS,1,special_pair,CL0:A:801:MG,HIS:A:707:NE2,KA,A,2.35918,mg,Mg coordination,1.0,1.0,45.34,42.72
+9EYS_prot1_special_pair,9EYS,1,special_pair,CLA:B:801:MG,HIS:B:661:NE2,QC,B,2.53523,mg,Mg coordination,1.0,1.0,43.32,36.64
+9EYS_prot1_P_A,9EYS,1,P_A,HOH:A:907:O,TYR:A:630:OH,WP,A,2.98908,water,water proximity,1.0,1.0,48.01,49.24
+9EYS_prot1_P_A,9EYS,1,P_A,HOH:A:907:O,SER:A:634:OG,WP,A,2.78001,water,water proximity,1.0,1.0,48.01,51.06
+9EYS_prot1_P_A,9EYS,1,P_A,HOH:A:907:O,GLY:A:766:O,WP,A,3.36915,water,water proximity,1.0,1.0,48.01,51.88
+9EYS_prot1_P_A,9EYS,1,P_A,HOH:A:907:O,THR:A:770:OG1,WP,A,2.73650,water,water proximity,1.0,1.0,48.01,47.22
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:O2D,HOH:A:907:O,KA,WP,3.35260,water,water proximity,1.0,1.0,46.08,48.01
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:MG,HIS:A:707:NE2,KA,A,2.35918,mg,Mg coordination,1.0,1.0,45.34,42.72
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:OBD,CL0:A:801:O2D,KA,KA,3.75230,intra,intramolecular oxygen separation,1.0,1.0,44.65,46.08
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:OBD,THR:A:770:OG1,KA,A,2.87473,polar,polar heavy-atom candidate,1.0,1.0,44.65,47.22
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:O2D,THR:A:770:OG1,KA,A,3.38329,polar,polar heavy-atom candidate,1.0,1.0,46.08,47.22
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:O2D,TYR:A:630:OH,KA,A,3.17469,polar,polar heavy-atom candidate,1.0,1.0,46.08,49.24
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:O1A,TYR:A:762:OH,KA,A,2.90176,polar,polar heavy-atom candidate,1.0,1.0,46.18,44.34
+9EYS_prot1_P_A,9EYS,1,P_A,CL0:A:801:O1A,PHE:A:710:CE1,KA,A,6.34857,packing,packing distance,1.0,1.0,46.18,37.6
+9EYS_prot2_A1A,9EYS,2,A1A,PQN:N:843:O1,MET:N:715:O,EH,M,3.22585,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,46.08,46.25
+9EYS_prot2_A1A,9EYS,2,A1A,PQN:N:843:O1,TRP:N:724:NE1,EH,M,3.30655,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,46.08,42.23
+9EYS_prot2_A1A,9EYS,2,A1A,PQN:N:843:O1,SER:N:719:OG,EH,M,3.30753,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,46.08,46.91
+9EYS_prot2_A1A,9EYS,2,A1A,PQN:N:843:O4,LEU:N:749:N,EH,M,2.90429,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,46.31,47.19
+9EYS_prot2_A1B,9EYS,2,A1B,PQN:O:842:O1,THR:O:673:OG1,IJ,N,3.20433,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,40.26,42.44
+9EYS_prot2_A1B,9EYS,2,A1B,PQN:O:842:O1,TRP:O:678:NE1,IJ,N,3.28377,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,40.26,35.71
+9EYS_prot2_A1B,9EYS,2,A1B,PQN:O:842:O1,MET:O:669:O,IJ,N,3.28672,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,40.26,40.17
+9EYS_prot2_A1B,9EYS,2,A1B,PQN:O:842:O4,LEU:O:706:N,IJ,N,2.95298,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,42.01,44.21
+9EYS_prot2_special_pair,9EYS,2,special_pair,CL0:N:801:OBD,THR:N:770:OG1,OF,M,2.89095,polar,polar heavy-atom candidate,1.0,1.0,45.05,48.83
+9EYS_prot2_special_pair,9EYS,2,special_pair,CL0:N:801:O1A,TYR:N:762:OH,OF,M,2.94474,polar,polar heavy-atom candidate,1.0,1.0,48.21,44.99
+9EYS_prot2_special_pair,9EYS,2,special_pair,CL0:N:801:O2D,TYR:N:630:OH,OF,M,3.13365,polar,polar heavy-atom candidate,1.0,1.0,46.91,52.86
+9EYS_prot2_special_pair,9EYS,2,special_pair,CL0:N:801:O2D,HOH:N:908:O,OF,FQ,3.29442,water,water proximity,1.0,1.0,46.91,47.71
+9EYS_prot2_special_pair,9EYS,2,special_pair,CL0:N:801:O2D,THR:N:770:OG1,OF,M,3.38271,polar,polar heavy-atom candidate,1.0,1.0,46.91,48.83
+9EYS_prot2_special_pair,9EYS,2,special_pair,CLA:O:801:O1D,TYR:O:727:N,TH,N,2.93066,polar,polar heavy-atom candidate,1.0,1.0,50.88,42.81
+9EYS_prot2_special_pair,9EYS,2,special_pair,CL0:N:801:MG,HIS:N:707:NE2,OF,M,2.38253,mg,Mg coordination,1.0,1.0,45.86,42.29
+9EYS_prot2_special_pair,9EYS,2,special_pair,CLA:O:801:MG,HIS:O:661:NE2,TH,N,2.48955,mg,Mg coordination,1.0,1.0,43.27,35.45
+9EYS_prot2_P_A,9EYS,2,P_A,HOH:N:908:O,TYR:N:630:OH,FQ,M,3.05349,water,water proximity,1.0,1.0,47.71,52.86
+9EYS_prot2_P_A,9EYS,2,P_A,HOH:N:908:O,SER:N:634:OG,FQ,M,2.82947,water,water proximity,1.0,1.0,47.71,49.06
+9EYS_prot2_P_A,9EYS,2,P_A,HOH:N:908:O,GLY:N:766:O,FQ,M,3.43599,water,water proximity,1.0,1.0,47.71,51.47
+9EYS_prot2_P_A,9EYS,2,P_A,HOH:N:908:O,THR:N:770:OG1,FQ,M,2.78021,water,water proximity,1.0,1.0,47.71,48.83
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:O2D,HOH:N:908:O,OF,FQ,3.29442,water,water proximity,1.0,1.0,46.91,47.71
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:MG,HIS:N:707:NE2,OF,M,2.38253,mg,Mg coordination,1.0,1.0,45.86,42.29
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:OBD,CL0:N:801:O2D,OF,OF,3.68336,intra,intramolecular oxygen separation,1.0,1.0,45.05,46.91
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:OBD,THR:N:770:OG1,OF,M,2.89095,polar,polar heavy-atom candidate,1.0,1.0,45.05,48.83
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:O2D,THR:N:770:OG1,OF,M,3.38271,polar,polar heavy-atom candidate,1.0,1.0,46.91,48.83
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:O2D,TYR:N:630:OH,OF,M,3.13365,polar,polar heavy-atom candidate,1.0,1.0,46.91,52.86
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:O1A,TYR:N:762:OH,OF,M,2.94474,polar,polar heavy-atom candidate,1.0,1.0,48.21,44.99
+9EYS_prot2_P_A,9EYS,2,P_A,CL0:N:801:O1A,PHE:N:710:CE1,OF,M,4.30787,packing,packing distance,1.0,1.0,48.21,35.79
+9EYS_prot3_A1A,9EYS,3,A1A,PQN:a:843:O1,MET:a:715:O,IM,Y,3.19752,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,45.39,45.31
+9EYS_prot3_A1A,9EYS,3,A1A,PQN:a:843:O1,TRP:a:724:NE1,IM,Y,3.30308,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,45.39,42.64
+9EYS_prot3_A1A,9EYS,3,A1A,PQN:a:843:O1,SER:a:719:OG,IM,Y,3.31856,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,45.39,47.58
+9EYS_prot3_A1A,9EYS,3,A1A,PQN:a:843:O4,LEU:a:749:N,IM,Y,2.87794,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,47.42,46.75
+9EYS_prot3_A1B,9EYS,3,A1B,PQN:b:842:O1,THR:b:673:OG1,MO,Z,3.14862,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,40.11,43.37
+9EYS_prot3_A1B,9EYS,3,A1B,PQN:b:842:O1,MET:b:669:O,MO,Z,3.21611,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,40.11,40.14
+9EYS_prot3_A1B,9EYS,3,A1B,PQN:b:842:O1,TRP:b:678:NE1,MO,Z,3.27966,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,40.11,36.4
+9EYS_prot3_A1B,9EYS,3,A1B,PQN:b:842:O4,LEU:b:706:N,MO,Z,2.97272,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.66,43.93
+9EYS_prot3_special_pair,9EYS,3,special_pair,CL0:a:801:OBD,THR:a:770:OG1,SK,Y,2.85307,polar,polar heavy-atom candidate,1.0,1.0,43.94,46.93
+9EYS_prot3_special_pair,9EYS,3,special_pair,CL0:a:801:O1A,TYR:a:762:OH,SK,Y,2.91750,polar,polar heavy-atom candidate,1.0,1.0,47.55,45.99
+9EYS_prot3_special_pair,9EYS,3,special_pair,CL0:a:801:O2D,TYR:a:630:OH,SK,Y,3.13472,polar,polar heavy-atom candidate,1.0,1.0,46.97,51.3
+9EYS_prot3_special_pair,9EYS,3,special_pair,CL0:a:801:O2D,HOH:a:908:O,SK,OQ,3.15982,water,water proximity,1.0,1.0,46.97,46.63
+9EYS_prot3_special_pair,9EYS,3,special_pair,CL0:a:801:O2D,THR:a:770:OG1,SK,Y,3.33768,polar,polar heavy-atom candidate,1.0,1.0,46.97,46.93
+9EYS_prot3_special_pair,9EYS,3,special_pair,CLA:b:801:O1D,TYR:b:727:N,XM,Z,2.92436,polar,polar heavy-atom candidate,1.0,1.0,50.95,42.39
+9EYS_prot3_special_pair,9EYS,3,special_pair,CL0:a:801:MG,HIS:a:707:NE2,SK,Y,2.34222,mg,Mg coordination,1.0,1.0,46.39,43.3
+9EYS_prot3_special_pair,9EYS,3,special_pair,CLA:b:801:MG,HIS:b:661:NE2,XM,Z,2.52422,mg,Mg coordination,1.0,1.0,45.1,36.9
+9EYS_prot3_P_A,9EYS,3,P_A,HOH:a:908:O,TYR:a:630:OH,OQ,Y,2.94417,water,water proximity,1.0,1.0,46.63,51.3
+9EYS_prot3_P_A,9EYS,3,P_A,HOH:a:908:O,SER:a:634:OG,OQ,Y,2.85305,water,water proximity,1.0,1.0,46.63,48.55
+9EYS_prot3_P_A,9EYS,3,P_A,HOH:a:908:O,GLY:a:766:O,OQ,Y,3.39124,water,water proximity,1.0,1.0,46.63,52.15
+9EYS_prot3_P_A,9EYS,3,P_A,HOH:a:908:O,THR:a:770:OG1,OQ,Y,2.75662,water,water proximity,1.0,1.0,46.63,46.93
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:O2D,HOH:a:908:O,SK,OQ,3.15982,water,water proximity,1.0,1.0,46.97,46.63
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:MG,HIS:a:707:NE2,SK,Y,2.34222,mg,Mg coordination,1.0,1.0,46.39,43.3
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:OBD,CL0:a:801:O2D,SK,SK,3.67416,intra,intramolecular oxygen separation,1.0,1.0,43.94,46.97
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:OBD,THR:a:770:OG1,SK,Y,2.85307,polar,polar heavy-atom candidate,1.0,1.0,43.94,46.93
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:O2D,THR:a:770:OG1,SK,Y,3.33768,polar,polar heavy-atom candidate,1.0,1.0,46.97,46.93
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:O2D,TYR:a:630:OH,SK,Y,3.13472,polar,polar heavy-atom candidate,1.0,1.0,46.97,51.3
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:O1A,TYR:a:762:OH,SK,Y,2.91750,polar,polar heavy-atom candidate,1.0,1.0,47.55,45.99
+9EYS_prot3_P_A,9EYS,3,P_A,CL0:a:801:O1A,PHE:a:710:CE1,SK,Y,4.39329,packing,packing distance,1.0,1.0,47.55,37.02
+9I9L_prot1_A1A,9I9L,1,A1A,PQN:A:843:O1,SER:A:719:OG,AC,A,3.30535,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,42.67,43.21
+9I9L_prot1_A1A,9I9L,1,A1A,PQN:A:843:O1,TRP:A:724:NE1,AC,A,3.35409,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,42.67,37.04
+9I9L_prot1_A1A,9I9L,1,A1A,PQN:A:843:O4,LEU:A:749:N,AC,A,2.93494,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.59,42.11
+9I9L_prot1_A1B,9I9L,1,A1B,PQN:B:841:O1,MET:B:669:O,CE,B,3.02222,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,34.83,34.8
+9I9L_prot1_A1B,9I9L,1,A1B,PQN:B:841:O1,THR:B:673:OG1,CE,B,3.23659,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,34.83,37.24
+9I9L_prot1_A1B,9I9L,1,A1B,PQN:B:841:O1,TRP:B:678:NE1,CE,B,3.33035,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,34.83,30.36
+9I9L_prot1_A1B,9I9L,1,A1B,PQN:B:841:O4,LEU:B:706:N,CE,B,3.08060,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,36.55,37.82
+9I9L_prot1_special_pair,9I9L,1,special_pair,CL0:A:801:O1A,TYR:A:762:OH,KA,A,2.92072,polar,polar heavy-atom candidate,1.0,1.0,43.2,41.07
+9I9L_prot1_special_pair,9I9L,1,special_pair,CL0:A:801:OBD,THR:A:770:OG1,KA,A,2.92618,polar,polar heavy-atom candidate,1.0,1.0,41.47,45.09
+9I9L_prot1_special_pair,9I9L,1,special_pair,CL0:A:801:O2D,TYR:A:630:OH,KA,A,3.19585,polar,polar heavy-atom candidate,1.0,1.0,41.74,44.91
+9I9L_prot1_special_pair,9I9L,1,special_pair,CL0:A:801:O2D,HOH:A:905:O,KA,WP,3.32769,water,water proximity,1.0,1.0,41.74,43.94
+9I9L_prot1_special_pair,9I9L,1,special_pair,CL0:A:801:O2D,THR:A:770:OG1,KA,A,3.34636,polar,polar heavy-atom candidate,1.0,1.0,41.74,45.09
+9I9L_prot1_special_pair,9I9L,1,special_pair,CLA:B:801:O1D,TYR:B:727:N,OC,B,2.97431,polar,polar heavy-atom candidate,1.0,1.0,45.84,38.02
+9I9L_prot1_special_pair,9I9L,1,special_pair,CL0:A:801:MG,HIS:A:707:NE2,KA,A,2.36838,mg,Mg coordination,1.0,1.0,40.93,38.91
+9I9L_prot1_special_pair,9I9L,1,special_pair,CLA:B:801:MG,HIS:B:661:NE2,OC,B,2.51990,mg,Mg coordination,1.0,1.0,40.35,34.41
+9I9L_prot1_P_A,9I9L,1,P_A,HOH:A:905:O,TYR:A:630:OH,WP,A,2.96417,water,water proximity,1.0,1.0,43.94,44.91
+9I9L_prot1_P_A,9I9L,1,P_A,HOH:A:905:O,SER:A:634:OG,WP,A,2.80366,water,water proximity,1.0,1.0,43.94,45.35
+9I9L_prot1_P_A,9I9L,1,P_A,HOH:A:905:O,GLY:A:766:O,WP,A,3.39258,water,water proximity,1.0,1.0,43.94,44.66
+9I9L_prot1_P_A,9I9L,1,P_A,HOH:A:905:O,THR:A:770:OG1,WP,A,2.74560,water,water proximity,1.0,1.0,43.94,45.09
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:O2D,HOH:A:905:O,KA,WP,3.32769,water,water proximity,1.0,1.0,41.74,43.94
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:MG,HIS:A:707:NE2,KA,A,2.36838,mg,Mg coordination,1.0,1.0,40.93,38.91
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:OBD,CL0:A:801:O2D,KA,KA,3.72835,intra,intramolecular oxygen separation,1.0,1.0,41.47,41.74
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:OBD,THR:A:770:OG1,KA,A,2.92618,polar,polar heavy-atom candidate,1.0,1.0,41.47,45.09
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:O2D,THR:A:770:OG1,KA,A,3.34636,polar,polar heavy-atom candidate,1.0,1.0,41.74,45.09
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:O2D,TYR:A:630:OH,KA,A,3.19585,polar,polar heavy-atom candidate,1.0,1.0,41.74,44.91
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:O1A,TYR:A:762:OH,KA,A,2.92072,polar,polar heavy-atom candidate,1.0,1.0,43.2,41.07
+9I9L_prot1_P_A,9I9L,1,P_A,CL0:A:801:O1A,PHE:A:710:CE1,KA,A,4.64417,packing,packing distance,1.0,1.0,43.2,33.71
+9I9L_prot2_A1A,9I9L,2,A1A,PQN:N:843:O1,MET:N:715:O,GH,M,3.22558,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,43.31,46.33
+9I9L_prot2_A1A,9I9L,2,A1A,PQN:N:843:O1,TRP:N:724:NE1,GH,M,3.36500,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,43.31,35.76
+9I9L_prot2_A1A,9I9L,2,A1A,PQN:N:843:O1,PHE:N:716:N,GH,M,3.46691,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,43.31,38.29
+9I9L_prot2_A1A,9I9L,2,A1A,PQN:N:843:O4,LEU:N:749:N,GH,M,2.94959,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.39,41.42
+9I9L_prot2_A1B,9I9L,2,A1B,PQN:O:841:O1,THR:O:673:OG1,JJ,N,3.15846,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,34.65,37.48
+9I9L_prot2_A1B,9I9L,2,A1B,PQN:O:841:O1,MET:O:669:O,JJ,N,3.30269,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,34.65,35.33
+9I9L_prot2_A1B,9I9L,2,A1B,PQN:O:841:O1,TRP:O:678:NE1,JJ,N,3.30453,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,34.65,31.23
+9I9L_prot2_A1B,9I9L,2,A1B,PQN:O:841:O4,LEU:O:706:N,JJ,N,3.03774,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,36.66,38.12
+9I9L_prot2_special_pair,9I9L,2,special_pair,CL0:N:801:OBD,THR:N:770:OG1,QF,M,2.89131,polar,polar heavy-atom candidate,1.0,1.0,43.62,43.24
+9I9L_prot2_special_pair,9I9L,2,special_pair,CL0:N:801:O1A,TYR:N:762:OH,QF,M,2.94467,polar,polar heavy-atom candidate,1.0,1.0,42.73,41.77
+9I9L_prot2_special_pair,9I9L,2,special_pair,CL0:N:801:O2D,TYR:N:630:OH,QF,M,3.14760,polar,polar heavy-atom candidate,1.0,1.0,42.18,44.68
+9I9L_prot2_special_pair,9I9L,2,special_pair,CL0:N:801:O2D,HOH:N:907:O,QF,FQ,3.28388,water,water proximity,1.0,1.0,42.18,41.94
+9I9L_prot2_special_pair,9I9L,2,special_pair,CL0:N:801:O2D,THR:N:770:OG1,QF,M,3.41843,polar,polar heavy-atom candidate,1.0,1.0,42.18,43.24
+9I9L_prot2_special_pair,9I9L,2,special_pair,CLA:O:801:O1D,TYR:O:727:N,VH,N,2.90523,polar,polar heavy-atom candidate,1.0,1.0,47.49,37.48
+9I9L_prot2_special_pair,9I9L,2,special_pair,CL0:N:801:MG,HIS:N:707:NE2,QF,M,2.36811,mg,Mg coordination,1.0,1.0,40.33,39.21
+9I9L_prot2_special_pair,9I9L,2,special_pair,CLA:O:801:MG,HIS:O:661:NE2,VH,N,2.53453,mg,Mg coordination,1.0,1.0,38.78,34.82
+9I9L_prot2_P_A,9I9L,2,P_A,HOH:N:907:O,TYR:N:630:OH,FQ,M,3.00188,water,water proximity,1.0,1.0,41.94,44.68
+9I9L_prot2_P_A,9I9L,2,P_A,HOH:N:907:O,SER:N:634:OG,FQ,M,2.84706,water,water proximity,1.0,1.0,41.94,42.61
+9I9L_prot2_P_A,9I9L,2,P_A,HOH:N:907:O,GLY:N:766:O,FQ,M,3.35495,water,water proximity,1.0,1.0,41.94,46.02
+9I9L_prot2_P_A,9I9L,2,P_A,HOH:N:907:O,THR:N:770:OG1,FQ,M,2.78551,water,water proximity,1.0,1.0,41.94,43.24
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:O2D,HOH:N:907:O,QF,FQ,3.28388,water,water proximity,1.0,1.0,42.18,41.94
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:MG,HIS:N:707:NE2,QF,M,2.36811,mg,Mg coordination,1.0,1.0,40.33,39.21
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:OBD,CL0:N:801:O2D,QF,QF,3.73851,intra,intramolecular oxygen separation,1.0,1.0,43.62,42.18
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:OBD,THR:N:770:OG1,QF,M,2.89131,polar,polar heavy-atom candidate,1.0,1.0,43.62,43.24
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:O2D,THR:N:770:OG1,QF,M,3.41843,polar,polar heavy-atom candidate,1.0,1.0,42.18,43.24
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:O2D,TYR:N:630:OH,QF,M,3.14760,polar,polar heavy-atom candidate,1.0,1.0,42.18,44.68
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:O1A,TYR:N:762:OH,QF,M,2.94467,polar,polar heavy-atom candidate,1.0,1.0,42.73,41.77
+9I9L_prot2_P_A,9I9L,2,P_A,CL0:N:801:O1A,PHE:N:710:CE1,QF,M,4.45284,packing,packing distance,1.0,1.0,42.73,32.19
+9I9L_prot3_A1A,9I9L,3,A1A,PQN:a:843:O1,MET:a:715:O,KM,Y,3.32206,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,41.82,45.64
+9I9L_prot3_A1A,9I9L,3,A1A,PQN:a:843:O1,TRP:a:724:NE1,KM,Y,3.35090,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.82,37.01
+9I9L_prot3_A1A,9I9L,3,A1A,PQN:a:843:O1,PHE:a:716:N,KM,Y,3.45245,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.82,36.92
+9I9L_prot3_A1A,9I9L,3,A1A,PQN:a:843:O1,SER:a:719:OG,KM,Y,3.46397,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.82,40.32
+9I9L_prot3_A1A,9I9L,3,A1A,PQN:a:843:O4,LEU:a:749:N,KM,Y,2.92563,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,41.16,43.0
+9I9L_prot3_A1B,9I9L,3,A1B,PQN:b:841:O1,THR:b:673:OG1,LO,Z,3.16004,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,35.2,38.03
+9I9L_prot3_A1B,9I9L,3,A1B,PQN:b:841:O1,TRP:b:678:NE1,LO,Z,3.29482,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,35.2,30.94
+9I9L_prot3_A1B,9I9L,3,A1B,PQN:b:841:O1,MET:b:669:O,LO,Z,3.31878,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,35.2,34.95
+9I9L_prot3_A1B,9I9L,3,A1B,PQN:b:841:O4,LEU:b:706:N,LO,Z,3.06519,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,36.79,36.71
+9I9L_prot3_special_pair,9I9L,3,special_pair,CL0:a:801:OBD,THR:a:770:OG1,UK,Y,2.90544,polar,polar heavy-atom candidate,1.0,1.0,42.48,42.84
+9I9L_prot3_special_pair,9I9L,3,special_pair,CL0:a:801:O1A,TYR:a:762:OH,UK,Y,2.91095,polar,polar heavy-atom candidate,1.0,1.0,43.26,39.43
+9I9L_prot3_special_pair,9I9L,3,special_pair,CL0:a:801:O2D,TYR:a:630:OH,UK,Y,3.15870,polar,polar heavy-atom candidate,1.0,1.0,40.68,43.39
+9I9L_prot3_special_pair,9I9L,3,special_pair,CL0:a:801:O2D,HOH:a:908:O,UK,OQ,3.31989,water,water proximity,1.0,1.0,40.68,41.98
+9I9L_prot3_special_pair,9I9L,3,special_pair,CL0:a:801:O2D,THR:a:770:OG1,UK,Y,3.44126,polar,polar heavy-atom candidate,1.0,1.0,40.68,42.84
+9I9L_prot3_special_pair,9I9L,3,special_pair,CLA:b:801:O1D,TYR:b:727:N,XM,Z,2.91335,polar,polar heavy-atom candidate,1.0,1.0,45.82,37.59
+9I9L_prot3_special_pair,9I9L,3,special_pair,CL0:a:801:MG,HIS:a:707:NE2,UK,Y,2.36760,mg,Mg coordination,1.0,1.0,40.26,38.54
+9I9L_prot3_special_pair,9I9L,3,special_pair,CLA:b:801:MG,HIS:b:661:NE2,XM,Z,2.52957,mg,Mg coordination,1.0,1.0,39.2,33.91
+9I9L_prot3_P_A,9I9L,3,P_A,HOH:a:908:O,TYR:a:630:OH,OQ,Y,3.00463,water,water proximity,1.0,1.0,41.98,43.39
+9I9L_prot3_P_A,9I9L,3,P_A,HOH:a:908:O,SER:a:634:OG,OQ,Y,2.88148,water,water proximity,1.0,1.0,41.98,42.52
+9I9L_prot3_P_A,9I9L,3,P_A,HOH:a:908:O,GLY:a:766:O,OQ,Y,3.34860,water,water proximity,1.0,1.0,41.98,43.11
+9I9L_prot3_P_A,9I9L,3,P_A,HOH:a:908:O,THR:a:770:OG1,OQ,Y,2.78456,water,water proximity,1.0,1.0,41.98,42.84
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:O2D,HOH:a:908:O,UK,OQ,3.31989,water,water proximity,1.0,1.0,40.68,41.98
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:MG,HIS:a:707:NE2,UK,Y,2.36760,mg,Mg coordination,1.0,1.0,40.26,38.54
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:OBD,CL0:a:801:O2D,UK,UK,3.73191,intra,intramolecular oxygen separation,1.0,1.0,42.48,40.68
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:OBD,THR:a:770:OG1,UK,Y,2.90544,polar,polar heavy-atom candidate,1.0,1.0,42.48,42.84
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:O2D,THR:a:770:OG1,UK,Y,3.44126,polar,polar heavy-atom candidate,1.0,1.0,40.68,42.84
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:O2D,TYR:a:630:OH,UK,Y,3.15870,polar,polar heavy-atom candidate,1.0,1.0,40.68,43.39
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:O1A,TYR:a:762:OH,UK,Y,2.91095,polar,polar heavy-atom candidate,1.0,1.0,43.26,39.43
+9I9L_prot3_P_A,9I9L,3,P_A,CL0:a:801:O1A,PHE:a:710:CE1,UK,Y,4.45318,packing,packing distance,1.0,1.0,43.26,31.33
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O1,MET:A:688:O,VA,A,3.22541,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,23.8,26.16
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O1,SER:A:692:OG,VA,A,3.16228,polar,polar heavy-atom candidate,1.0,1.0,23.8,29.19
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O1,TRP:A:697:NE1,VA,A,3.27685,polar,polar heavy-atom candidate,1.0,1.0,23.8,22.11
+9QFP_prot1_A1A,9QFP,1,A1A,PQN:A:837:O4,LEU:A:722:N,VA,A,2.91937,polar,polar heavy-atom candidate,1.0,1.0,24.45,26.32
+9QFP_prot1_A1B,9QFP,1,A1B,PQN:B:823:O1,TRP:B:678:NE1,TC,B,3.34042,polar,polar heavy-atom candidate,1.0,1.0,27.95,19.92
+9QFP_prot1_A1B,9QFP,1,A1B,PQN:B:823:O1,SER:B:673:OG,TC,B,3.33686,polar,polar heavy-atom candidate,1.0,1.0,27.95,25.17
+9QFP_prot1_A1B,9QFP,1,A1B,PQN:B:823:O1,MET:B:669:O,TC,B,3.36735,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,27.95,21.64
+9QFP_prot1_A1B,9QFP,1,A1B,PQN:B:823:O4,LEU:B:707:N,TC,B,2.93904,polar,polar heavy-atom candidate,1.0,1.0,23.8,27.54
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O1A,TYR:A:735:OH,FB,A,2.60097,polar,polar heavy-atom candidate,1.0,1.0,32.9,25.32
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:OBD,THR:A:743:OG1,FB,A,2.74563,polar,polar heavy-atom candidate,1.0,1.0,23.09,24.68
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O2D,TYR:A:603:OH,FB,A,3.19109,polar,polar heavy-atom candidate,1.0,1.0,22.66,28.31
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O2D,THR:A:743:OG1,FB,A,3.28769,polar,polar heavy-atom candidate,1.0,1.0,22.66,24.68
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O2D,HOH:A:1061:O,FB,UE,3.16034,water,water proximity,1.0,1.0,22.66,25.22
+9QFP_prot1_special_pair,9QFP,1,special_pair,CLA:B:834:O1D,TYR:B:728:N,ED,B,3.20608,polar,polar heavy-atom candidate,1.0,1.0,34.04,23.0
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:MG,HIS:A:680:NE2,FB,A,2.20547,mg,Mg coordination,1.0,1.0,19.67,19.68
+9QFP_prot1_special_pair,9QFP,1,special_pair,CLA:B:834:MG,HIS:B:661:NE2,ED,B,2.19485,mg,Mg coordination,1.0,1.0,20.6,19.09
+9QFP_prot1_special_pair,9QFP,1,special_pair,CLA:B:834:O2D,HOH:B:952:O,ED,VE,4.90301,context,longer water context,1.0,1.0,32.43,28.46
+9QFP_prot1_P_A,9QFP,1,P_A,HOH:A:1061:O,TYR:A:603:OH,UE,A,2.73674,water,water proximity,1.0,1.0,25.22,28.31
+9QFP_prot1_P_A,9QFP,1,P_A,HOH:A:1061:O,SER:A:607:OG,UE,A,3.08128,water,water proximity,1.0,1.0,25.22,24.06
+9QFP_prot1_P_A,9QFP,1,P_A,HOH:A:1061:O,GLY:A:739:O,UE,A,3.35355,water,water proximity,1.0,1.0,25.22,26.75
+9QFP_prot1_P_A,9QFP,1,P_A,HOH:A:1061:O,THR:A:743:OG1,UE,A,2.80494,water,water proximity,1.0,1.0,25.22,24.68
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:O2D,HOH:A:1061:O,FB,UE,3.16034,water,water proximity,1.0,1.0,22.66,25.22
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:MG,HIS:A:680:NE2,FB,A,2.20547,mg,Mg coordination,1.0,1.0,19.67,19.68
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:OBD,CL0:A:847:O2D,FB,FB,3.56831,intra,intramolecular oxygen separation,1.0,1.0,23.09,22.66
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:OBD,THR:A:743:OG1,FB,A,2.74563,polar,polar heavy-atom candidate,1.0,1.0,23.09,24.68
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:O2D,THR:A:743:OG1,FB,A,3.28769,polar,polar heavy-atom candidate,1.0,1.0,22.66,24.68
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:O2D,TYR:A:603:OH,FB,A,3.19109,polar,polar heavy-atom candidate,1.0,1.0,22.66,28.31
+9QFP_prot1_P_A,9QFP,1,P_A,CL0:A:847:O1A,TYR:A:735:OH,FB,A,2.60097,polar,polar heavy-atom candidate,1.0,1.0,32.9,25.32
+9S6P_prot1_A1A,9S6P,1,A1A,PQN:A:2001:O1,SER:A:690:OG,VD,J,3.20504,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,74.72,75.15
+9S6P_prot1_A1A,9S6P,1,A1A,PQN:A:2001:O1,TRP:A:695:NE1,VD,J,3.22753,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,74.72,69.26
+9S6P_prot1_A1A,9S6P,1,A1A,PQN:A:2001:O1,MET:A:686:O,VD,J,3.39632,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,74.72,70.53
+9S6P_prot1_A1A,9S6P,1,A1A,PQN:A:2001:O4,MET:A:720:N,VD,J,2.80496,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,80.6,81.59
+9S6P_prot1_A1B,9S6P,1,A1B,PQN:B:2002:O1,SER:B:666:OG,BB,A,3.28854,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,67.94,67.41
+9S6P_prot1_A1B,9S6P,1,A1B,PQN:B:2002:O1,TRP:B:671:NE1,BB,A,3.37780,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,67.94,65.52
+9S6P_prot1_A1B,9S6P,1,A1B,PQN:B:2002:O4,LEU:B:700:N,BB,A,2.93646,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,69.46,67.51
+9S6P_prot1_special_pair,9S6P,1,special_pair,G9R:A:1011:O1A,TYR:A:733:OH,EC,J,2.86155,polar,polar heavy-atom candidate,1.0,1.0,72.27,71.13
+9S6P_prot1_special_pair,9S6P,1,special_pair,G9R:A:1011:OBD,SER:A:741:OG,EC,J,2.90583,polar,polar heavy-atom candidate,1.0,1.0,73.46,75.65
+9S6P_prot1_special_pair,9S6P,1,special_pair,G9R:A:1011:O2D,TYR:A:601:OH,EC,J,3.46144,polar,polar heavy-atom candidate,1.0,1.0,71.25,73.73
+9S6P_prot1_special_pair,9S6P,1,special_pair,G9R:A:1011:O2D,HOH:A:909:O,EC,OE,3.46551,water,water proximity,1.0,1.0,71.25,71.73
+9S6P_prot1_special_pair,9S6P,1,special_pair,CL7:B:1022:O1D,TYR:B:721:N,M,A,3.12571,polar,polar heavy-atom candidate,1.0,1.0,73.95,62.1
+9S6P_prot1_special_pair,9S6P,1,special_pair,CL7:B:1022:O2A,TYR:B:717:OH,M,A,3.49781,polar,polar heavy-atom candidate,1.0,1.0,79.21,71.59
+9S6P_prot1_special_pair,9S6P,1,special_pair,G9R:A:1011:MG,HIS:A:678:NE2,EC,J,2.30301,mg,Mg coordination,1.0,1.0,67.91,60.32
+9S6P_prot1_special_pair,9S6P,1,special_pair,CL7:B:1022:MG,HIS:B:654:NE2,M,A,2.30352,mg,Mg coordination,1.0,1.0,65.67,62.87
+9S6P_prot1_P_A,9S6P,1,P_A,HOH:A:909:O,TYR:A:601:OH,OE,J,3.12417,water,water proximity,1.0,1.0,71.73,73.73
+9S6P_prot1_P_A,9S6P,1,P_A,HOH:A:909:O,SER:A:605:OG,OE,J,2.86369,water,water proximity,1.0,1.0,71.73,74.29
+9S6P_prot1_P_A,9S6P,1,P_A,HOH:A:909:O,GLY:A:737:O,OE,J,3.01232,water,water proximity,1.0,1.0,71.73,75.26
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:O2D,HOH:A:909:O,EC,OE,3.46551,water,water proximity,1.0,1.0,71.25,71.73
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:MG,HIS:A:678:NE2,EC,J,2.30301,mg,Mg coordination,1.0,1.0,67.91,60.32
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:OBD,G9R:A:1011:O2D,EC,EC,3.75022,intra,intramolecular oxygen separation,1.0,1.0,73.46,71.25
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:O2D,TYR:A:601:OH,EC,J,3.46144,polar,polar heavy-atom candidate,1.0,1.0,71.25,73.73
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:O1A,TYR:A:733:OH,EC,J,2.86155,polar,polar heavy-atom candidate,1.0,1.0,72.27,71.13
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:O1A,TRP:A:681:NE1,EC,J,3.65251,context,longer context distance,1.0,1.0,72.27,68.71
+9S6P_prot1_P_A,9S6P,1,P_A,HOH:A:909:O,SER:A:741:OG,OE,J,2.88319,water,water proximity,1.0,1.0,71.73,75.65
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:OBD,SER:A:741:OG,EC,J,2.90583,polar,polar heavy-atom candidate,1.0,1.0,73.46,75.65
+9S6P_prot1_P_A,9S6P,1,P_A,G9R:A:1011:O2D,SER:A:741:OG,EC,J,3.67258,context,longer context distance,1.0,1.0,71.25,75.65
+9SK3_prot1_A1A,9SK3,1,A1A,PQN:aA:2001:O1,TRP:aA:695:NE1,BC,A,3.28471,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,93.36,96.57
+9SK3_prot1_A1A,9SK3,1,A1A,PQN:aA:2001:O1,SER:aA:690:OG,BC,A,3.30959,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,93.36,84.62
+9SK3_prot1_A1A,9SK3,1,A1A,PQN:aA:2001:O1,MET:aA:686:O,BC,A,3.37634,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,93.36,82.9
+9SK3_prot1_A1A,9SK3,1,A1A,PQN:aA:2001:O4,MET:aA:720:N,BC,A,2.89246,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,109.3,104.66
+9SK3_prot1_A1B,9SK3,1,A1B,PQN:aB:2002:O1,TRP:aB:671:NE1,TC,B,3.33245,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.6,71.38
+9SK3_prot1_A1B,9SK3,1,A1B,PQN:aB:2002:O1,SER:aB:666:OG,TC,B,3.37407,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.6,67.27
+9SK3_prot1_A1B,9SK3,1,A1B,PQN:aB:2002:O4,LEU:aB:700:N,TC,B,2.99016,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,77.33,70.77
+9SK3_prot1_special_pair,9SK3,1,special_pair,G9R:aA:1011:O1A,TYR:aA:733:OH,KA,A,2.86739,polar,polar heavy-atom candidate,1.0,1.0,68.8,67.38
+9SK3_prot1_special_pair,9SK3,1,special_pair,G9R:aA:1011:OBD,SER:aA:741:OG,KA,A,3.01241,polar,polar heavy-atom candidate,1.0,1.0,74.86,80.06
+9SK3_prot1_special_pair,9SK3,1,special_pair,G9R:aA:1011:O2D,HOH:aA:3210:O,KA,PO,3.40234,water,water proximity,1.0,1.0,67.71,71.42
+9SK3_prot1_special_pair,9SK3,1,special_pair,G9R:aA:1011:O2D,TYR:aA:601:OH,KA,A,3.40940,polar,polar heavy-atom candidate,1.0,1.0,67.71,73.74
+9SK3_prot1_special_pair,9SK3,1,special_pair,CL7:aB:1021:O1D,TYR:aB:721:N,GD,B,3.10261,polar,polar heavy-atom candidate,1.0,1.0,78.23,63.93
+9SK3_prot1_special_pair,9SK3,1,special_pair,G9R:aA:1011:MG,HIS:aA:678:NE2,KA,A,2.30407,mg,Mg coordination,1.0,1.0,69.22,55.81
+9SK3_prot1_special_pair,9SK3,1,special_pair,CL7:aB:1021:MG,HIS:aB:654:NE2,GD,B,2.30283,mg,Mg coordination,1.0,1.0,62.89,58.1
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,TYR:aA:601:OH,PO,A,2.95036,water,water proximity,1.0,1.0,71.42,73.74
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,SER:aA:605:OG,PO,A,2.91193,water,water proximity,1.0,1.0,71.42,80.61
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,GLY:aA:737:O,PO,A,2.97314,water,water proximity,1.0,1.0,71.42,72.06
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O2D,HOH:aA:3210:O,KA,PO,3.40234,water,water proximity,1.0,1.0,67.71,71.42
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:MG,HIS:aA:678:NE2,KA,A,2.30407,mg,Mg coordination,1.0,1.0,69.22,55.81
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:OBD,G9R:aA:1011:O2D,KA,KA,3.78481,intra,intramolecular oxygen separation,1.0,1.0,74.86,67.71
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O2D,TYR:aA:601:OH,KA,A,3.40940,polar,polar heavy-atom candidate,1.0,1.0,67.71,73.74
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O1A,TYR:aA:733:OH,KA,A,2.86739,polar,polar heavy-atom candidate,1.0,1.0,68.8,67.38
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O1A,TRP:aA:681:NE1,KA,A,3.64418,context,longer context distance,1.0,1.0,68.8,60.7
+9SK3_prot1_P_A,9SK3,1,P_A,HOH:aA:3210:O,SER:aA:741:OG,PO,A,2.87888,water,water proximity,1.0,1.0,71.42,80.06
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:OBD,SER:aA:741:OG,KA,A,3.01241,polar,polar heavy-atom candidate,1.0,1.0,74.86,80.06
+9SK3_prot1_P_A,9SK3,1,P_A,G9R:aA:1011:O2D,SER:aA:741:OG,KA,A,3.61424,context,longer context distance,1.0,1.0,67.71,80.06
+9SK3_prot2_A1A,9SK3,2,A1A,PQN:bA:2001:O1,TRP:bA:695:NE1,VG,M,3.30942,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,97.66,98.62
+9SK3_prot2_A1A,9SK3,2,A1A,PQN:bA:2001:O1,MET:bA:686:O,VG,M,3.37011,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,97.66,87.12
+9SK3_prot2_A1A,9SK3,2,A1A,PQN:bA:2001:O4,MET:bA:720:N,VG,M,3.10343,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,111.48,110.44
+9SK3_prot2_A1B,9SK3,2,A1B,PQN:bB:2002:O1,SER:bB:666:OG,WI,N,3.09717,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.22,69.64
+9SK3_prot2_A1B,9SK3,2,A1B,PQN:bB:2002:O1,TRP:bB:671:NE1,WI,N,3.43483,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.22,72.06
+9SK3_prot2_A1B,9SK3,2,A1B,PQN:bB:2002:O4,LEU:bB:700:N,WI,N,2.96584,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,80.71,74.4
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:O1A,TYR:bA:733:OH,DF,M,2.83534,polar,polar heavy-atom candidate,1.0,1.0,76.93,68.15
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:OBD,SER:bA:741:OG,DF,M,2.91458,polar,polar heavy-atom candidate,1.0,1.0,79.09,80.32
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:O2D,TYR:bA:601:OH,DF,M,3.39424,polar,polar heavy-atom candidate,1.0,1.0,70.5,72.63
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:O2D,HOH:bA:3210:O,DF,UO,3.46860,water,water proximity,1.0,1.0,70.5,80.13
+9SK3_prot2_special_pair,9SK3,2,special_pair,CL7:bB:1021:O1D,TYR:bB:721:N,IH,N,3.11742,polar,polar heavy-atom candidate,1.0,1.0,81.14,67.14
+9SK3_prot2_special_pair,9SK3,2,special_pair,CL7:bB:1021:O2A,TYR:bB:717:OH,IH,N,3.39416,polar,polar heavy-atom candidate,1.0,1.0,80.75,77.06
+9SK3_prot2_special_pair,9SK3,2,special_pair,G9R:bA:1011:MG,HIS:bA:678:NE2,DF,M,2.30494,mg,Mg coordination,1.0,1.0,73.47,59.79
+9SK3_prot2_special_pair,9SK3,2,special_pair,CL7:bB:1021:MG,HIS:bB:654:NE2,IH,N,2.30256,mg,Mg coordination,1.0,1.0,59.67,57.33
+9SK3_prot2_P_A,9SK3,2,P_A,HOH:bA:3210:O,TYR:bA:601:OH,UO,M,3.10665,water,water proximity,1.0,1.0,80.13,72.63
+9SK3_prot2_P_A,9SK3,2,P_A,HOH:bA:3210:O,SER:bA:605:OG,UO,M,2.83238,water,water proximity,1.0,1.0,80.13,82.42
+9SK3_prot2_P_A,9SK3,2,P_A,HOH:bA:3210:O,GLY:bA:737:O,UO,M,3.10015,water,water proximity,1.0,1.0,80.13,75.96
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:O2D,HOH:bA:3210:O,DF,UO,3.46860,water,water proximity,1.0,1.0,70.5,80.13
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:MG,HIS:bA:678:NE2,DF,M,2.30494,mg,Mg coordination,1.0,1.0,73.47,59.79
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:OBD,G9R:bA:1011:O2D,DF,DF,3.76974,intra,intramolecular oxygen separation,1.0,1.0,79.09,70.5
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:O2D,TYR:bA:601:OH,DF,M,3.39424,polar,polar heavy-atom candidate,1.0,1.0,70.5,72.63
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:O1A,TYR:bA:733:OH,DF,M,2.83534,polar,polar heavy-atom candidate,1.0,1.0,76.93,68.15
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:O1A,TRP:bA:681:NE1,DF,M,3.73041,context,longer context distance,1.0,1.0,76.93,61.79
+9SK3_prot2_P_A,9SK3,2,P_A,HOH:bA:3210:O,SER:bA:741:OG,UO,M,2.85252,water,water proximity,1.0,1.0,80.13,80.32
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:OBD,SER:bA:741:OG,DF,M,2.91458,polar,polar heavy-atom candidate,1.0,1.0,79.09,80.32
+9SK3_prot2_P_A,9SK3,2,P_A,G9R:bA:1011:O2D,SER:bA:741:OG,DF,M,3.52143,context,longer context distance,1.0,1.0,70.5,80.32
+9SK3_prot3_A1A,9SK3,3,A1A,PQN:cA:2001:O1,TRP:cA:695:NE1,LL,Y,3.28538,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,89.71,90.01
+9SK3_prot3_A1A,9SK3,3,A1A,PQN:cA:2001:O1,SER:cA:690:OG,LL,Y,3.30974,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,89.71,80.28
+9SK3_prot3_A1A,9SK3,3,A1A,PQN:cA:2001:O1,MET:cA:686:O,LL,Y,3.43199,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,89.71,79.16
+9SK3_prot3_A1A,9SK3,3,A1A,PQN:cA:2001:O4,MET:cA:720:N,LL,Y,2.98116,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,104.13,101.91
+9SK3_prot3_A1B,9SK3,3,A1B,PQN:cB:2002:O1,SER:cB:666:OG,ON,Z,3.33504,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.08,70.62
+9SK3_prot3_A1B,9SK3,3,A1B,PQN:cB:2002:O1,TRP:cB:671:NE1,ON,Z,3.38331,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,73.08,72.4
+9SK3_prot3_A1B,9SK3,3,A1B,PQN:cB:2002:O1,LEU:cB:662:O,ON,Z,3.46089,polar,Deposited oxygen is an acceptor-side atom; it cannot donate an H in the current heavy-atom model.,1.0,1.0,73.08,64.52
+9SK3_prot3_A1B,9SK3,3,A1B,PQN:cB:2002:O4,LEU:cB:700:N,ON,Z,3.01200,polar,Atom type can provide a donor H in a compatible protonation/tautomer; donor-H angle remains unvalidated.,1.0,1.0,81.57,70.21
+9SK3_prot3_special_pair,9SK3,3,special_pair,G9R:cA:1011:O1A,TYR:cA:733:OH,WJ,Y,2.79577,polar,polar heavy-atom candidate,1.0,1.0,65.01,61.77
+9SK3_prot3_special_pair,9SK3,3,special_pair,G9R:cA:1011:OBD,SER:cA:741:OG,WJ,Y,3.07734,polar,polar heavy-atom candidate,1.0,1.0,72.52,79.52
+9SK3_prot3_special_pair,9SK3,3,special_pair,G9R:cA:1011:O2D,TYR:cA:601:OH,WJ,Y,3.41149,polar,polar heavy-atom candidate,1.0,1.0,64.08,71.2
+9SK3_prot3_special_pair,9SK3,3,special_pair,CL7:cB:1021:O1D,TYR:cB:721:N,AM,Z,3.15655,polar,polar heavy-atom candidate,1.0,1.0,77.49,63.62
+9SK3_prot3_special_pair,9SK3,3,special_pair,CL7:cB:1021:O2A,TYR:cB:717:OH,AM,Z,3.42958,polar,polar heavy-atom candidate,1.0,1.0,73.27,72.49
+9SK3_prot3_special_pair,9SK3,3,special_pair,G9R:cA:1011:MG,HIS:cA:678:NE2,WJ,Y,2.30271,mg,Mg coordination,1.0,1.0,64.8,52.46
+9SK3_prot3_special_pair,9SK3,3,special_pair,CL7:cB:1021:MG,HIS:cB:654:NE2,AM,Z,2.30324,mg,Mg coordination,1.0,1.0,61.33,55.42
+9SK3_prot3_P_A,9SK3,3,P_A,HOH:cA:3210:O,TYR:cA:601:OH,ZO,Y,3.23655,water,water proximity,1.0,1.0,69.51,71.2
+9SK3_prot3_P_A,9SK3,3,P_A,HOH:cA:3210:O,SER:cA:605:OG,ZO,Y,2.83267,water,water proximity,1.0,1.0,69.51,77.34
+9SK3_prot3_P_A,9SK3,3,P_A,HOH:cA:3210:O,GLY:cA:737:O,ZO,Y,3.02293,water,water proximity,1.0,1.0,69.51,71.98
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:O2D,HOH:cA:3210:O,WJ,ZO,3.63255,context,longer water context,1.0,1.0,64.08,69.51
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:MG,HIS:cA:678:NE2,WJ,Y,2.30271,mg,Mg coordination,1.0,1.0,64.8,52.46
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:OBD,G9R:cA:1011:O2D,WJ,WJ,3.78929,intra,intramolecular oxygen separation,1.0,1.0,72.52,64.08
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:O2D,TYR:cA:601:OH,WJ,Y,3.41149,polar,polar heavy-atom candidate,1.0,1.0,64.08,71.2
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:O1A,TYR:cA:733:OH,WJ,Y,2.79577,polar,polar heavy-atom candidate,1.0,1.0,65.01,61.77
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:O1A,TRP:cA:681:NE1,WJ,Y,3.62914,context,longer context distance,1.0,1.0,65.01,56.63
+9SK3_prot3_P_A,9SK3,3,P_A,HOH:cA:3210:O,SER:cA:741:OG,ZO,Y,2.81906,water,water proximity,1.0,1.0,69.51,79.52
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:OBD,SER:cA:741:OG,WJ,Y,3.07734,polar,polar heavy-atom candidate,1.0,1.0,72.52,79.52
+9SK3_prot3_P_A,9SK3,3,P_A,G9R:cA:1011:O2D,SER:cA:741:OG,WJ,Y,3.53175,context,longer context distance,1.0,1.0,64.08,79.52
+9YL7_prot1_A1B,9YL7,1,A1B,A1AGD:B:831:O1,LEU:B:697:N,VC,B,3.01513,polar,polar heavy-atom candidate,1.0,1.0,13.32,9.3
+9YL7_prot1_A1B,9YL7,1,A1B,A1AGD:B:831:O2,TRP:B:668:NE1,VC,B,3.35520,polar,polar heavy-atom candidate,1.0,1.0,17.54,6.78
+9YL7_prot1_A1B,9YL7,1,A1B,A1AGD:B:831:O2,SER:B:663:OG,VC,B,3.43045,polar,polar heavy-atom candidate,1.0,1.0,17.54,12.97
+9YL7_prot1_A1A,9YL7,1,A1A,PL9:A:854:O1,LEU:A:718:N,MB,A,3.04435,polar,polar heavy-atom candidate,1.0,1.0,22.42,14.42
+9YL7_prot1_A1A,9YL7,1,A1A,PL9:A:854:O2,MET:A:684:O,MB,A,3.11648,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,21.72,13.03
+9YL7_prot1_A1A,9YL7,1,A1A,PL9:A:854:O2,SER:A:688:OG,MB,A,2.85433,polar,polar heavy-atom candidate,1.0,1.0,21.72,17.3
+9YL7_prot1_A1A,9YL7,1,A1A,PL9:A:854:O2,TRP:A:693:NE1,MB,A,3.25549,polar,polar heavy-atom candidate,1.0,1.0,21.72,12.34
+9YL7_prot1_special_pair,9YL7,1,special_pair,CL0:A:802:O1A,TYR:A:731:OH,M,A,2.87747,polar,polar heavy-atom candidate,1.0,1.0,14.1,10.66
+9YL7_prot1_special_pair,9YL7,1,special_pair,CL0:A:802:OBD,THR:A:739:OG1,M,A,2.88801,polar,polar heavy-atom candidate,1.0,1.0,4.19,8.65
+9YL7_prot1_special_pair,9YL7,1,special_pair,CL0:A:802:O2D,THR:A:739:OG1,M,A,3.24274,polar,polar heavy-atom candidate,1.0,1.0,13.39,8.65
+9YL7_prot1_special_pair,9YL7,1,special_pair,CL0:A:802:O2D,TYR:A:599:OH,M,A,3.21742,polar,polar heavy-atom candidate,1.0,1.0,13.39,11.55
+9YL7_prot1_special_pair,9YL7,1,special_pair,CL0:A:802:O2D,HOH:A:939:O,M,ZE,3.25864,water,water proximity,1.0,1.0,13.39,12.94
+9YL7_prot1_special_pair,9YL7,1,special_pair,CLA:B:853:O2A,TYR:B:714:OH,RD,B,3.48275,polar,polar heavy-atom candidate,1.0,1.0,18.3,10.79
+9YL7_prot1_special_pair,9YL7,1,special_pair,CLA:B:853:O1D,TYR:B:718:N,RD,B,3.32610,polar,polar heavy-atom candidate,1.0,1.0,11.7,4.55
+9YL7_prot1_special_pair,9YL7,1,special_pair,CL0:A:802:MG,HIS:A:676:NE2,M,A,2.74693,mg,Mg coordination,1.0,1.0,9.87,8.16
+9YL7_prot1_special_pair,9YL7,1,special_pair,CLA:B:853:MG,HIS:B:651:NE2,RD,B,2.76909,mg,Mg coordination,1.0,1.0,9.84,4.85
+9YL7_prot1_special_pair,9YL7,1,special_pair,CLA:B:853:O2D,HOH:B:932:O,RD,AF,4.63261,context,longer water context,1.0,1.0,16.74,9.81
+9YL7_prot1_P_A,9YL7,1,P_A,HOH:A:939:O,TYR:A:599:OH,ZE,A,3.00727,water,water proximity,1.0,1.0,12.94,11.55
+9YL7_prot1_P_A,9YL7,1,P_A,HOH:A:939:O,SER:A:603:OG,ZE,A,3.10576,water,water proximity,1.0,1.0,12.94,10.93
+9YL7_prot1_P_A,9YL7,1,P_A,HOH:A:939:O,GLY:A:735:O,ZE,A,3.51481,context,longer water context,1.0,1.0,12.94,10.31
+9YL7_prot1_P_A,9YL7,1,P_A,HOH:A:939:O,THR:A:739:OG1,ZE,A,2.80856,water,water proximity,1.0,1.0,12.94,8.65
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:O2D,HOH:A:939:O,M,ZE,3.25864,water,water proximity,1.0,1.0,13.39,12.94
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:MG,HIS:A:676:NE2,M,A,2.74693,mg,Mg coordination,1.0,1.0,9.87,8.16
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:OBD,CL0:A:802:O2D,M,M,3.73089,intra,intramolecular oxygen separation,1.0,1.0,4.19,13.39
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:OBD,THR:A:739:OG1,M,A,2.88801,polar,polar heavy-atom candidate,1.0,1.0,4.19,8.65
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:O2D,THR:A:739:OG1,M,A,3.24274,polar,polar heavy-atom candidate,1.0,1.0,13.39,8.65
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:O2D,TYR:A:599:OH,M,A,3.21742,polar,polar heavy-atom candidate,1.0,1.0,13.39,11.55
+9YL7_prot1_P_A,9YL7,1,P_A,CL0:A:802:O1A,TYR:A:731:OH,M,A,2.87747,polar,polar heavy-atom candidate,1.0,1.0,14.1,10.66

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this library, please cite it, together with the PDB entries and primary papers for the structures you use."
+title: "PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A1 quinone sites"
+type: software
+authors:
+  - given-names: "Michael Raymond"
+    family-names: "Nelson"
+version: "0.1.0-preview"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/Fisicas/psi-contact-atlas"
+url: "https://fisicas.github.io/psi-contact-atlas/"
+keywords:
+  - photosystem I
+  - special pair
+  - P700
+  - phylloquinone
+  - hydrogen bonding
+  - cryo-EM
+  - X-ray crystallography
+  - PyMOL

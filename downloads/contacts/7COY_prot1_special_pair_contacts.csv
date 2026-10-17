@@ -1,0 +1,8 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O1A,TYR:aA:733:OH,HA,A,2.54391,polar,polar heavy-atom candidate,1.0,1.0,38.09,28.25
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:OBD,SER:aA:741:OG,HA,A,2.76116,polar,polar heavy-atom candidate,1.0,1.0,24.56,36.11
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O2D,TYR:aA:601:OH,HA,A,3.02154,polar,polar heavy-atom candidate,1.0,1.0,29.46,35.01
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O2D,HOH:aA:3210:O,HA,AL,3.31741,water,water proximity,1.0,1.0,29.46,32.0
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:O2D,SER:aA:741:OG,HA,A,3.38577,polar,polar heavy-atom candidate,1.0,1.0,29.46,36.11
+7COY_prot1_special_pair,7COY,1,special_pair,G9R:aA:3101:MG,HIS:aA:678:NE2,HA,A,2.06079,mg,Mg coordination,1.0,1.0,17.13,14.49
+7COY_prot1_special_pair,7COY,1,special_pair,CL7:aB:3003:MG,HIS:aB:657:NE2,DC,B,2.31289,mg,Mg coordination,1.0,1.0,20.07,12.16

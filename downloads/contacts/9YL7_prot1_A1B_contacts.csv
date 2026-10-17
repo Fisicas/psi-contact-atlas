@@ -1,0 +1,4 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9YL7_prot1_A1B,9YL7,1,A1B,A1AGD:B:831:O1,LEU:B:697:N,VC,B,3.01513,polar,polar heavy-atom candidate,1.0,1.0,13.32,9.3
+9YL7_prot1_A1B,9YL7,1,A1B,A1AGD:B:831:O2,TRP:B:668:NE1,VC,B,3.35520,polar,polar heavy-atom candidate,1.0,1.0,17.54,6.78
+9YL7_prot1_A1B,9YL7,1,A1B,A1AGD:B:831:O2,SER:B:663:OG,VC,B,3.43045,polar,polar heavy-atom candidate,1.0,1.0,17.54,12.97

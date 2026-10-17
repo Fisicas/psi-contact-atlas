@@ -1,0 +1,10 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O1A,TYR:A:735:OH,FB,A,2.60097,polar,polar heavy-atom candidate,1.0,1.0,32.9,25.32
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:OBD,THR:A:743:OG1,FB,A,2.74563,polar,polar heavy-atom candidate,1.0,1.0,23.09,24.68
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O2D,TYR:A:603:OH,FB,A,3.19109,polar,polar heavy-atom candidate,1.0,1.0,22.66,28.31
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O2D,THR:A:743:OG1,FB,A,3.28769,polar,polar heavy-atom candidate,1.0,1.0,22.66,24.68
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:O2D,HOH:A:1061:O,FB,UE,3.16034,water,water proximity,1.0,1.0,22.66,25.22
+9QFP_prot1_special_pair,9QFP,1,special_pair,CLA:B:834:O1D,TYR:B:728:N,ED,B,3.20608,polar,polar heavy-atom candidate,1.0,1.0,34.04,23.0
+9QFP_prot1_special_pair,9QFP,1,special_pair,CL0:A:847:MG,HIS:A:680:NE2,FB,A,2.20547,mg,Mg coordination,1.0,1.0,19.67,19.68
+9QFP_prot1_special_pair,9QFP,1,special_pair,CLA:B:834:MG,HIS:B:661:NE2,ED,B,2.19485,mg,Mg coordination,1.0,1.0,20.6,19.09
+9QFP_prot1_special_pair,9QFP,1,special_pair,CLA:B:834:O2D,HOH:B:952:O,ED,VE,4.90301,context,longer water context,1.0,1.0,32.43,28.46

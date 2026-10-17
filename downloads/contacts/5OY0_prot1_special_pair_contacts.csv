@@ -1,0 +1,10 @@
+view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,v02_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O1A,TYR:1:731:OH,XL,W,2.62500,polar,polar heavy-atom candidate,1.0,1.0,73.17,55.8
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O2A,TYR:1:599:OH,XL,W,3.09985,polar,polar heavy-atom candidate,1.0,1.0,76.29,59.84
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O1D,GLY:1:735:O,XL,W,3.17402,polar,oxygen proximity; hydrogen geometry unvalidated,1.0,1.0,102.79,60.81
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O2D,TYR:1:599:OH,XL,W,3.36492,polar,polar heavy-atom candidate,1.0,1.0,103.49,59.84
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:O1D,THR:1:739:N,XL,W,3.40162,polar,polar heavy-atom candidate,1.0,1.0,102.79,75.28
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:2:1021:O2A,TYR:2:714:OH,HO,X,3.05086,polar,polar heavy-atom candidate,1.0,1.0,96.58,84.41
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:2:1021:O1D,TYR:2:718:N,HO,X,3.16836,polar,polar heavy-atom candidate,1.0,1.0,79.14,78.34
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:1:1011:MG,HIS:1:676:NE2,XL,W,2.93727,mg,Mg coordination,1.0,1.0,60.19,74.5
+5OY0_prot1_special_pair,5OY0,1,special_pair,CLA:2:1021:MG,HIS:2:651:NE2,HO,X,2.97302,mg,Mg coordination,1.0,1.0,69.55,74.03
